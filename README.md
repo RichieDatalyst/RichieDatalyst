@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=0FFDFD&center=true&vCenter=true&width=1000&lines=Hi+%F0%9F%91%8B%2C+I'm+Richie+Datalyst.;Final+Year+DS+Student+%7C+ML%2FDL%2FNLP+Explorer;Building+PetNutriCare+%F0%9F%90%B6+%7C+Multi-Modal+AI+Project;Adaptive+Summarization+NLP+%F0%9F%93%9A+for+Scientific+Papers;Open+to+Collab+on+AI%2FDS+Projects!+%E2%9A%A1" alt="Intro Typing Animation" />
+</p>
+
+
+
 # 💫 About Me:
 🔭 I’m currently working on my exciting FYP(PetNutriCare)<br>💪 I'm strengthening my skills on ML, NLP, DL, GenAI. <br>🌱 I’m currently learning Django, Deploying apps, PowerBI & Tableau<br>⚡ Fun fact Connect and Talk to know about me.
 
