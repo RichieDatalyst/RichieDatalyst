@@ -38,12 +38,13 @@
 <h3 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Thanks+for+visiting!+👨‍💻;Connect+with+me+to+collaborate!">
 </h3>
+
 <!-- Snake Animation -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/RichieDatalyst/RichieDatalyst/blob/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/RichieDatalyst/RichieDatalyst/blob/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://github.com/RichieDatalyst/RichieDatalyst/blob/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
