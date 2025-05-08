@@ -29,4 +29,22 @@
 </p>
 
 
+
+
+
+<br>
+<!-- Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RichieDatalyst&theme=react-dark&hide_border=true" width="100%"/>
+<h3 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Thanks+for+visiting!+👨‍💻;Connect+with+me+to+collaborate!">
+</h3>
+<!-- Snake Animation -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/RichieDatalyst/RichieDatalyst/blob/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/RichieDatalyst/RichieDatalyst/blob/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://github.com/RichieDatalyst/RichieDatalyst/blob/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
