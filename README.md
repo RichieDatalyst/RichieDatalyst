@@ -5,7 +5,7 @@
 
 
 #  About Me:
-1. Done with my exciting FYP(PetNutriCare)<br>2. I'm strengthening my skills on ML, NLP, DL, GenAI. <br>3. I’m currently learning FastAPI, Deploying apps, PowerBI<br>4. Fun fact Connect and Talk to know about me.
+Done with my exciting FYP(PetNutriCare)<br>I'm strengthening my skills on ML, NLP, DL, GenAI. <br>I’m currently learning FastAPI, Deploying apps, PowerBI<br>Fun Fact: Connect and Talk to know about me.
 
 
 ## 🌐 Socials:
