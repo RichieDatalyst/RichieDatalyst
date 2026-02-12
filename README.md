@@ -5,9 +5,9 @@
 
 
 #  About Me:
-Done with my exciting FYP(PetNutriCare)<br>I'm strengthening my skills on ML, NLP, DL, GenAI. <br>I’m currently learning FastAPI, Deploying apps, PowerBI<br>Fun Fact: Connect and Talk to know about me.
-
-
+Data Science Fresh Graduate 
+Fast Nuces Lahore 
+ 
 ## 🌐 Socials:
 <a href="mailto:abdullahameer255@gmail.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
