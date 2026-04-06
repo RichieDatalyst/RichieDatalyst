@@ -12,10 +12,15 @@ Fast Nuces Lahore
 <a href="mailto:abdullahameer255@gmail.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
-[RichieDatalyst](https://richiedatalyst.github.io/)
+
 
 <a href="mailto:abdullahameer255@gmail.com">
   <img src="https://img.shields.io/badge/Email-abdullahameer255%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+
+
+<a href="https://richiedatalyst.github.io/">
+<img src="https://img.shields.io/badge/Portfolio-255E00?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
 </a>
 
 # 💻 Tech Stack:
