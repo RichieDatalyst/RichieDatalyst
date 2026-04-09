@@ -120,20 +120,20 @@
 <img src="https://img.shields.io/badge/Git-000305?style=for-the-badge&logo=git&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/GitHub-000305?style=for-the-badge&logo=github&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/GitHub%20Actions-000305?style=for-the-badge&logo=githubactions&logoColor=00ffcc&labelColor=000305"/>
-<img src="https://img.shields.io/badge/VS_Code-000305?style=for-the-badge&logo=visualstudiocode&logoColor=21A3EF&labelColor=000305"/>
-<img src="https://img.shields.io/badge/Canva-000305?style=for-the-badge&logo=canva&logoColor=00C4CC&labelColor=000305"/>
-<img src="https://img.shields.io/badge/Power_BI-000305?style=for-the-badge&logo=powerbi&logoColor=F2C811&labelColor=000305"/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=microsoft-power-bi&logoColor=black"/>
 
-<br>
+
 </div>
-
+<br><br>
 <div align="center">
 
 <a href="https://richiedatalyst.github.io" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-richiedatalyst.github.io-00ffcc?style=for-the-badge&logo=googlechrome&logoColor=00ffcc&labelColor=000305&label=VISIT" alt="Portfolio"/>
 </a>
 
-<br><br>
+<br>
 
 <a href="https://linkedin.com/in/ameer-abdullah-bhatti-502955294" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-ameer--abdullah--bhatti-0077B5?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=000305&label=CONNECT" alt="LinkedIn"/>
