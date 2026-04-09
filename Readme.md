@@ -1,129 +1,223 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=venom&color=0:000305,50:003322,100:000305&height=280&section=header&text=AMEER%20ABDULLAH&fontSize=62&fontColor=00ffcc&animation=twinkling&fontAlignY=55&desc=DATA%20SCIENTIST%20//%20AI%20ML%20ENGINEER%20//%20FAST%20NUCES%202025&descSize=16&descAlignY=74&descColor=44aaaa&stroke=00ffcc&strokeWidth=1)
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&pause=1000&color=00FFCC&center=true&vCenter=true&width=700&height=45&lines=ESTABLISHING+NEURAL+LINK...;PROCESSING+MULTI-AGENT+LLM+ARCHITECTURE;OPTIMIZING+RAG+PIPELINES+V2.0;STATUS:+OPEN+FOR+FULL-STACK+AI+ROLES)](https://git.io/typing-svg)
+<!-- 3D Animated Banner with Cyberpunk Aesthetic -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000305,30:001a11,70:003322,100:000305&height=300&section=header&text=Ameer%20Abdullah&fontSize=55&fontAlignY=45&fontColor=00ffcc&animation=fadeIn&desc=Data%20Scientist%20%7C%20AI%2FML%20Engineer%20%7C%20FAST%20NUCES%202025&descSize=18&descAlignY=65&descColor=44aaaa&stroke=00ffcc&strokeWidth=1.5" width="100%" alt="3D Animated Header"/>
 
 <br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=RichieDatalyst&style=for-the-badge&color=00ffcc&labelColor=000305&label=DATA_STREAM_ACCESS)
-![GitHub followers](https://img.shields.io/github/followers/RichieDatalyst?style=for-the-badge&color=00ccff&labelColor=000305&label=NETWORK_NODES)
+<!-- Typing Effect - No Emojis -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&pause=800&color=00FFCC&center=true&vCenter=true&width=800&height=50&lines=Building+intelligent+systems+from+data;Multi-agent+LLMs+%7C+RAG+Pipelines+%7C+Explainable+AI;FAST+NUCES+Lahore+%E2%80%94+Class+of+2025;Open+to+full-time+Data+Science+and+AI+roles" alt="Typing Effect"/>
 
-</div>
+<br><br>
 
----
-
-### [ SECTION_01: TECHNICAL_SPECIFICATIONS ]
-
-<div align="left">
-<table border="0">
+<!-- Profile Metrics with 3D Glow Effect -->
+<table>
   <tr>
-    <td>
-      <pre align="left">
-<b>>> IDENTITY:</b>       AMEER ABDULLAH
-<b>>> ORIGIN:</b>         LAHORE, PK [31.5204 N, 74.3587 E]
-<b>>> INSTITUTE:</b>      FAST NUCES // BS DATA SCIENCE
-<b>>> TIMELINE:</b>       2021 - 2025
-<b>>> FOCUS:</b>         LLMOPS | EXPLAINABLE AI | RAG
-      </pre>
+    <td align="center">
+      <img src="https://komarev.com/ghpvc/?username=RichieDatalyst&style=for-the-badge&color=00ffcc&labelColor=000305&label=PROFILE+VIEWS" alt="Profile Views"/>
     </td>
-    <td>
-      <pre align="left">
-<b>>> CORE_SYSTEMS:</b>
-[##########] NLP & GEN-AI
-[##########] MULTI-AGENT SYSTEMS
-[##########] RAG PIPELINES
-[#########.] MLOPS (CICD)
-[########..] DEEP LEARNING
-      </pre>
+    <td align="center">
+      <img src="https://img.shields.io/github/followers/RichieDatalyst?style=for-the-badge&color=00ccff&labelColor=000305&label=FOLLOWERS" alt="GitHub Followers"/>
     </td>
   </tr>
 </table>
-</div>
-
----
-
-### [ SECTION_02: SYSTEM_CORE_STATS ]
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=RichieDatalyst&show_icons=true&theme=chartreuse-dark&bg_color=000305&border_color=00ffcc&icon_color=00ffcc&title_color=00ffcc&text_color=88ddbb&hide_border=false&rank_icon=github&include_all_commits=true" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RichieDatalyst&layout=compact&theme=chartreuse-dark&bg_color=000305&border_color=00ffcc&title_color=00ffcc&text_color=88ddbb&hide_border=false&langs_count=8" />
 
 <br>
-
-<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=RichieDatalyst&theme=chartreuse-dark&background=000305&border=00ffcc&stroke=00ffcc&ring=00ffcc&fire=ff3366&currStreakNum=00ffcc&sideNums=00ffcc&currStreakLabel=00ffcc&sideLabels=44aaaa&dates=44aaaa" />
 
 </div>
 
 ---
 
-### [ SECTION_03: NEURAL_NETWORK_PROGRESS ]
+## <img src="https://img.shields.io/badge/3D_PROFILE_STATS-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="Stats"/> Comprehensive GitHub Analytics
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=RichieDatalyst&theme=react-dark&bg_color=000305&color=00ffcc&line=00ffcc&point=ff3366&area=true&area_color=003322&border_color=00ffcc)
+<!-- GitHub Stats Card - Full Metrics -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=RichieDatalyst&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=chartreuse-dark&bg_color=000305&border_color=00ffcc&icon_color=00ffcc&title_color=00ffcc&text_color=88ddbb&hide_border=true&rank_icon=github&hide_title=false" alt="GitHub Stats"/>
 
-<br>
+<!-- Top Languages with 3D Compact Layout -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RichieDatalyst&layout=compact&theme=chartreuse-dark&bg_color=000305&border_color=00ffcc&title_color=00ffcc&text_color=88ddbb&hide_border=true&langs_count=10&card_width=400" alt="Top Languages"/>
 
+<br><br>
+
+<!-- Streak Stats with Cyber Glow -->
+<img src="https://streak-stats.demolab.com/?user=RichieDatalyst&theme=chartreuse-dark&background=000305&border=00ffcc&stroke=00ffcc&ring=00ffcc&fire=ff3366&currStreakNum=00ffcc&sideNums=00ffcc&currStreakLabel=00ffcc&sideLabels=44aaaa&dates=44aaaa&hide_border=true" alt="Commit Streak"/>
+
+<br><br>
+
+<!-- 3D Contribution Graph - Interactive Calendar -->
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=RichieDatalyst&theme=react-dark&bg_color=000305&color=00ffcc&line=00ffcc&point=ff3366&area=true&area_color=003322&border_color=00ffcc&hide_border=true" alt="Activity Graph"/>
+
+</div>
+
+---
+
+## <img src="https://img.shields.io/badge/3D_CONTRIBUTION_VISUAL-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="3D Visual"/> Interactive Contribution Calendar
+
+<div align="center">
+
+<!-- 3D Profile Contribution - Requires GitHub Action Setup -->
+<!-- Follow instructions at: https://github.com/yoshi389111/github-profile-3d-contrib -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/profile-3d-contrib/profile-night-rainbow.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/profile-3d-contrib/profile-gitblock.svg"/>
+  <img width="95%" alt="3D Contribution Calendar" src="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/profile-3d-contrib/profile-night-rainbow.svg"/>
+</picture>
+
+<br><br>
+
+<!-- Snake Animation - Enhanced with 3D Path -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/github-contribution-grid-snake.svg"/>
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/github-contribution-grid-snake-dark.svg"/>
+  <img width="95%" alt="Snake Contribution Animation" src="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
 
 </div>
 
 ---
 
-### [ SECTION_04: RECOGNITION_MODULES ]
+## <img src="https://img.shields.io/badge/ACHIEVEMENTS_TROPHIES-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="Trophies"/> GitHub Profile Trophies
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=RichieDatalyst&theme=tokyonight&no-frame=false&column=4&margin-w=15&margin-h=15" />
+<!-- Fixed Trophy Section - Proper Username & Filtering -->
+<!-- Reference: https://github.com/ryo-ma/github-profile-trophy for parameter docs [[31]] -->
+<img src="https://github-profile-trophy.vercel.app/?username=RichieDatalyst&theme=tokyonight&no-frame=false&no-bg=true&margin-w=12&column=-1&title=Stars,Commits,PR,Issues,Followers,Repositories,MultiLanguage" alt="GitHub Trophies"/>
+
+<br>
+
+<!-- Additional Achievement Badges -->
+<img src="https://github-profile-trophy.vercel.app/?username=RichieDatalyst&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&rank=S,SS,SSS,AAA&title=-Discord,-Twitter" alt="Top Rank Trophies"/>
 
 </div>
 
 ---
 
-### [ SECTION_05: TOOLKIT_INVENTORY ]
+## <img src="https://img.shields.io/badge/TECH_STACK_3D-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="Tech Stack"/> Languages & Tools
 
 <div align="center">
 
-**LANGUAGES**
-![Python](https://img.shields.io/badge/Python-000305?style=for-the-badge&logo=python&logoColor=00ffcc)
-![SQL](https://img.shields.io/badge/SQL-000305?style=for-the-badge&logo=mysql&logoColor=00ffcc)
-![LaTeX](https://img.shields.io/badge/LaTeX-000305?style=for-the-badge&logo=latex&logoColor=00ffcc)
+### Core Programming
+<img src="https://img.shields.io/badge/Python-000305?style=for-the-badge&logo=python&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/SQL-000305?style=for-the-badge&logo=mysql&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/LaTeX-000305?style=for-the-badge&logo=latex&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/Markdown-000305?style=for-the-badge&logo=markdown&logoColor=00ffcc&labelColor=000305"/>
 
-**AI & MACHINE LEARNING**
-![PyTorch](https://img.shields.io/badge/PyTorch-000305?style=for-the-badge&logo=pytorch&logoColor=00ffcc)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-000305?style=for-the-badge&logo=tensorflow&logoColor=00ffcc)
-![scikit-learn](https://img.shields.io/badge/Scikit--learn-000305?style=for-the-badge&logo=scikit-learn&logoColor=00ffcc)
-![LangChain](https://img.shields.io/badge/LangChain-000305?style=for-the-badge&logo=chainlink&logoColor=00ffcc)
+<br>
 
-**INFRASTRUCTURE**
-![FastAPI](https://img.shields.io/badge/FastAPI-000305?style=for-the-badge&logo=fastapi&logoColor=00ffcc)
-![MLflow](https://img.shields.io/badge/MLflow-000305?style=for-the-badge&logo=mlflow&logoColor=00ffcc)
-![Git](https://img.shields.io/badge/Git-000305?style=for-the-badge&logo=git&logoColor=00ffcc)
-![GitHub Actions](https://img.shields.io/badge/Actions-000305?style=for-the-badge&logo=githubactions&logoColor=00ffcc)
+### AI & Machine Learning Frameworks
+<img src="https://img.shields.io/badge/PyTorch-000305?style=for-the-badge&logo=pytorch&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/TensorFlow-000305?style=for-the-badge&logo=tensorflow&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/Keras-000305?style=for-the-badge&logo=keras&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/Scikit--learn-000305?style=for-the-badge&logo=scikit-learn&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/OpenCV-000305?style=for-the-badge&logo=opencv&logoColor=00ffcc&labelColor=000305"/>
+
+<br>
+
+### Data Science & Visualization
+<img src="https://img.shields.io/badge/Pandas-000305?style=for-the-badge&logo=pandas&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/NumPy-000305?style=for-the-badge&logo=numpy&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/Matplotlib-000305?style=for-the-badge&logo=python&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/Plotly-000305?style=for-the-badge&logo=plotly&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/SciPy-000305?style=for-the-badge&logo=scipy&logoColor=00ffcc&labelColor=000305"/>
+
+<br>
+
+### LLM & MLOps Tools
+<img src="https://img.shields.io/badge/LangChain-000305?style=for-the-badge&logo=chainlink&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/LangGraph-000305?style=for-the-badge&logo=graphql&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/Streamlit-000305?style=for-the-badge&logo=streamlit&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/FastAPI-000305?style=for-the-badge&logo=fastapi&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/MLflow-000305?style=for-the-badge&logo=mlflow&logoColor=00ffcc&labelColor=000305"/>
+
+<br>
+
+### Databases & BI
+<img src="https://img.shields.io/badge/MongoDB-000305?style=for-the-badge&logo=mongodb&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/MySQL-000305?style=for-the-badge&logo=mysql&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/MSSQL-000305?style=for-the-badge&logo=microsoftsqlserver&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/Anaconda-000305?style=for-the-badge&logo=anaconda&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/Power%20BI-000305?style=for-the-badge&logo=powerbi&logoColor=00ffcc&labelColor=000305"/>
+
+<br>
+
+### DevOps & Development
+<img src="https://img.shields.io/badge/Git-000305?style=for-the-badge&logo=git&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/GitHub-000305?style=for-the-badge&logo=github&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/GitHub%20Actions-000305?style=for-the-badge&logo=githubactions&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/VS%20Code-000305?style=for-the-badge&logo=visualstudiocode&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/Canva-000305?style=for-the-badge&logo=canva&logoColor=00ffcc&labelColor=000305"/>
 
 </div>
 
 ---
 
-### [ SECTION_06: ESTABLISH_CONNECTION ]
+## <img src="https://img.shields.io/badge/KEY_METRICS-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="Metrics"/> Performance Highlights
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/ML_Models-6_Deployed-00ffcc?style=for-the-badge&labelColor=000305"/>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/Training_Steps-4.5M+-00ffcc?style=for-the-badge&labelColor=000305"/>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/Prediction_Accuracy-97%25-00ffcc?style=for-the-badge&labelColor=000305"/>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/LLM_Providers-4_Integrated-00ffcc?style=for-the-badge&labelColor=000305"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Test_Pass_Rate-100%25-00ffcc?style=for-the-badge&labelColor=000305"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Functional_Modules-10_Complete-00ffcc?style=for-the-badge&labelColor=000305"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Students_Mentored-50+-00ffcc?style=for-the-badge&labelColor=000305"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/RAG_Pipelines-Production_Ready-00ffcc?style=for-the-badge&labelColor=000305"/>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+## <img src="https://img.shields.io/badge/CONNECT_3D-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="Connect"/> Professional Network
 
 <div align="center">
 
 <a href="https://richiedatalyst.github.io" target="_blank">
-  <img src="https://img.shields.io/badge/TERMINAL-PORTFOLIO-00ffcc?style=for-the-badge&logo=googlechrome&logoColor=00ffcc&labelColor=000305" />
+  <img src="https://img.shields.io/badge/Portfolio-richiedatalyst.github.io-00ffcc?style=for-the-badge&logo=googlechrome&logoColor=00ffcc&labelColor=000305&label=VISIT" alt="Portfolio"/>
 </a>
+
+<br><br>
+
 <a href="https://linkedin.com/in/ameer-abdullah-bhatti-502955294" target="_blank">
-  <img src="https://img.shields.io/badge/LINKEDIN-NETWORK-0077B5?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=000305" />
+  <img src="https://img.shields.io/badge/LinkedIn-ameer--abdullah--bhatti-0077B5?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=000305&label=CONNECT" alt="LinkedIn"/>
 </a>
+&nbsp;
 <a href="mailto:abdullahameer255@gmail.com">
-  <img src="https://img.shields.io/badge/GMAIL-UPLINK-EA4335?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=000305" />
+  <img src="https://img.shields.io/badge/Gmail-abdullahameer255-EA4335?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=000305&label=EMAIL" alt="Email"/>
 </a>
+&nbsp;
+<a href="https://wa.me/923117494501" target="_blank">
+  <img src="https://img.shields.io/badge/WhatsApp-%2B92%20311%20749%204501-25D366?style=for-the-badge&logo=whatsapp&logoColor=25D366&labelColor=000305&label=MESSAGE" alt="WhatsApp"/>
+</a>
+
+<br><br>
+
+<!-- GitHub Repository Stats -->
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RichieDatalyst&repo=RichieDatalyst&theme=chartreuse-dark&bg_color=000305&border_color=00ffcc&title_color=00ffcc&text_color=88ddbb&hide_border=true" alt="Pinned Repo"/>
 
 </div>
 
@@ -131,6 +225,11 @@
 
 <div align="center">
 
-![footer](https://capsule-render.vercel.app/api?type=venom&color=0:000305,50:003322,100:000305&height=100&section=footer&fontColor=00ffcc&stroke=00ffcc&strokeWidth=1&text=SYSTEM_OFFLINE)
+<!-- 3D Footer Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000305,50:003322,100:000305&height=100&section=footer&fontColor=00ffcc&stroke=00ffcc&strokeWidth=1&text=Thank+you+for+visiting&fontSize=24&fontAlignY=50" width="100%" alt="Footer"/>
+
+<br>
+
+<img src="https://img.shields.io/badge/Last_Updated-Auto_Refresh_Daily-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="Last Updated"/>
 
 </div>
