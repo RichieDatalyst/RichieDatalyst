@@ -121,16 +121,13 @@
 <br>
 
 <img src="https://img.shields.io/badge/MongoDB-000305?style=for-the-badge&logo=mongodb&logoColor=00ffcc&labelColor=000305"/>
-
-<br>
-
-
 <img src="https://img.shields.io/badge/Git-000305?style=for-the-badge&logo=git&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/GitHub-000305?style=for-the-badge&logo=github&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/GitHub%20Actions-000305?style=for-the-badge&logo=githubactions&logoColor=00ffcc&labelColor=000305"/>
-<img src="https://img.shields.io/badge/VS_Code-000305?style=for-the-badge&logo=visual-studio-code&logoColor=0099ff&labelColor=000305&color=000305"/>
-<img src="https://img.shields.io/badge/Canva-000305?style=for-the-badge&logo=canva&logoColor=00C4CC&labelColor=000305&color=000305"/>
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000305&labelColor=000305"/>
+<img src="https://img.shields.io/badge/VS_Code-000305?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC&labelColor=000305"/>
+<img src="https://img.shields.io/badge/Canva-000305?style=for-the-badge&logo=canva&logoColor=00C4CC&labelColor=000305"/>
+<img src="https://img.shields.io/badge/Power_BI-000305?style=for-the-badge&logo=power-bi&logoColor=F2C811&labelColor=000305"/>
+
 
 </div>
 
