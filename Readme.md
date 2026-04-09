@@ -96,69 +96,7 @@
 
 <div align="center">
 
-## ACHIEVEMENTS_HIGHLIGHTS GitHub Milestones
 
-<div align="center">
-
-<!-- Achievement Badges - Using Reliable Shields.io [[70]] -->
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/⭐_Stars_Earned-500+-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Stars"/>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/🔀_PRs_Merged-95%25-00ffcc?style=for-the-badge&labelColor=000305&logo=git&logoColor=00ffcc" alt="PR Merge Rate"/>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/📦_Repositories-35_Active-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Repositories"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/🔥_Longest_Streak-120_Days-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Longest Streak"/>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/💬_Discussions-45_Started-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Discussions"/>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/🤝_Followers-Growing-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Followers"/>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- Optional: Try Original Trophy with Fallback Parameters -->
-<!-- If this doesn't render, the badges above ensure the section still looks professional -->
-<img src="https://github-profile-trophy.vercel.app/?username=RichieDatalyst&theme=flat&no-frame=true&no-bg=true&margin-w=15&column=7&title=Stars,Commits,PR,Issues,Followers,Repositories,MultiLanguage" alt="GitHub Trophies" onerror="this.style.display='none'"/>
-
-<br><br>
-
-<!-- Achievement Progress Bars - Visual Alternative -->
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <sub>Code Contributions</sub><br>
-      <img src="https://progress-bar.dev/92/?title=Commits&color=00ffcc&width=250&suffix=/10k" alt="Commits Progress"/>
-    </td>
-    <td width="50%" align="center">
-      <sub>Collaboration</sub><br>
-      <img src="https://progress-bar.dev/78/?title=PRs+Reviewed&color=00ffcc&width=250&suffix=%25" alt="PR Progress"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <sub>Problem Solving</sub><br>
-      <img src="https://progress-bar.dev/85/?title=Issues+Resolved&color=00ffcc&width=250&suffix=/500" alt="Issues Progress"/>
-    </td>
-    <td align="center">
-      <sub>Community</sub><br>
-      <img src="https://progress-bar.dev/65/?title=Discussions&color=00ffcc&width=250&suffix=/100" alt="Discussions Progress"/>
-    </td>
-  </tr>
-</table>
-
-</div>
 
 <br><br>
 
