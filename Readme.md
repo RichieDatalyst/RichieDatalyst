@@ -36,17 +36,7 @@
 <!-- Top Languages - Same Mirror -->
 <img width="49%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=RichieDatalyst&layout=compact&theme=chartreuse-dark&bg_color=000305&border_color=00ffcc&title_color=00ffcc&text_color=88ddbb&hide_border=true&langs_count=10&card_width=400" alt="Top Languages"/>
 
-<br><br>
 
-<br>
-
-<!-- GitHub Stats - Real Metrics Only -->
-<img src="https://img.shields.io/github/stars/RichieDatalyst?style=for-the-badge&label=Total_Stars&color=00ffcc&labelColor=000305&logo=github&logoColor=00ffcc" alt="Stars"/>
-<img src="https://img.shields.io/github/repo-size/RichieDatalyst/RichieDatalyst?style=for-the-badge&label=Profile_Size&color=00ffcc&labelColor=000305&logo=github&logoColor=00ffcc" alt="Repo Size"/>
-
-</div>
-
-<br><br>
 
 <!-- Streak Stats -->
 <img src="https://streak-stats.demolab.com/?user=RichieDatalyst&theme=chartreuse-dark&background=000305&border=00ffcc&stroke=00ffcc&ring=00ffcc&fire=ff3366&currStreakNum=00ffcc&sideNums=00ffcc&currStreakLabel=00ffcc&sideLabels=44aaaa&dates=44aaaa&hide_border=true" alt="Streak"/>
