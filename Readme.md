@@ -38,42 +38,50 @@
 
 <br><br>
 
-## 📊 LIVE_ACTIVITY Real-Time Development Metrics
+## 🔧 ACTIVE_TECH_STACK Technologies in Motion
 
 <div align="center">
 
-<!-- Animated Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RichieDatalyst&theme=react-dark&bg_color=000305&color=00ffcc&line=00ffcc&point=ff3366&area=true&area_color=003322&border_color=00ffcc&hide_border=true&hide_title=true" alt="Activity" width="100%"/>
+<!-- Animated Tech Stack - Scrolling Marquee -->
+<div style="overflow: hidden; white-space: nowrap; width: 100%;">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,keras,sklearn,pandas,numpy,matplotlib,fastapi,streamlit,langchain,docker,mongodb,mysql,git&theme=dark" alt="Tech Stack" style="animation: scroll 20s linear infinite;"/>
+</div>
+
+<style>
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+</style>
 
 <br><br>
 
-<!-- Animated Status Indicators -->
+<!-- Animated Skill Indicators -->
 <table>
   <tr>
-    <td align="center" width="33%">
-      <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="60" alt="Coding"/><br>
-      <sub>Currently Coding</sub>
+    <td align="center">
+      <img src="https://i.imgur.com/animation1.gif" width="80" alt="ML"/><br>
+      <sub>Machine Learning</sub>
     </td>
-    <td align="center" width="33%">
-      <img src="https://media.giphy.com/media/26tn3znLr5CAV4XU4/giphy.gif" width="60" alt="Training"/><br>
-      <sub>Model Training</sub>
+    <td align="center">
+      <img src="https://i.imgur.com/animation2.gif" width="80" alt="DL"/><br>
+      <sub>Deep Learning</sub>
     </td>
-    <td align="center" width="33%">
-      <img src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif" width="60" alt="Deploying"/><br>
-      <sub>Deploying</sub>
+    <td align="center">
+      <img src="https://i.imgur.com/animation3.gif" width="80" alt="NLP"/><br>
+      <sub>NLP & LLMs</sub>
+    </td>
+    <td align="center">
+      <img src="https://i.imgur.com/animation4.gif" width="80" alt="MLOps"/><br>
+      <sub>MLOps</sub>
     </td>
   </tr>
 </table>
 
 <br>
 
-<!-- Animated Typing Effect -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&pause=500&color=00FFCC&center=true&vCenter=true&width=600&height=40&lines=Training+LLM+Models...;Deploying+RAG+Pipeline...;Optimizing+Neural+Nets...;Building+Multi-Agent+Systems..." alt="Typing"/>
-
-<br><br>
-
-<!-- Animated Commit Graph -->
-<img src="https://ghchart.rshah.org/4092FF/RichieDatalyst" alt="Commit Chart" style="border-radius: 10px;"/>
+<!-- Animated Status Badge -->
+<img src="https://capsule-render.vercel.app/api?type=shark&color=00ffcc&height=60&section=footer&text=Currently+Building:+Multi-Agent+LLM+Systems&fontSize=18&fontColor=000305&animation=twinkling" alt="Status"/>
 
 </div>
 
