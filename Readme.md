@@ -38,36 +38,42 @@
 
 <br><br>
 
-## 🔧 TECH_ECOSYSTEM Active Development Environment
+## 📊 LIVE_ACTIVITY Real-Time Development Metrics
 
 <div align="center">
 
-<!-- Tech Stack Banner - Visual & Authentic -->
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,keras,sklearn,opencv,pandas,numpy,matplotlib,plotly,fastapi,streamlit,langchain,git,github,docker,kubernetes,mongodb,mysql,postgres,aws,gcp,azure,vscode,jupyter,linux&theme=dark&perline=12" alt="Tech Stack"/>
+<!-- Animated Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RichieDatalyst&theme=react-dark&bg_color=000305&color=00ffcc&line=00ffcc&point=ff3366&area=true&area_color=003322&border_color=00ffcc&hide_border=true&hide_title=true" alt="Activity" width="100%"/>
 
 <br><br>
 
-<!-- Current Focus Areas - Always Relevant -->
+<!-- Animated Status Indicators -->
 <table>
   <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/🎯_Current_Focus-Multi_Agent_LLMs-00ffcc?style=for-the-badge&labelColor=000305" alt="Focus"/>
+    <td align="center" width="33%">
+      <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="60" alt="Coding"/><br>
+      <sub>Currently Coding</sub>
     </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/📚_Learning_MLOps-Kubernetes-00ffcc?style=for-the-badge&labelColor=000305" alt="Learning"/>
+    <td align="center" width="33%">
+      <img src="https://media.giphy.com/media/26tn3znLr5CAV4XU4/giphy.gif" width="60" alt="Training"/><br>
+      <sub>Model Training</sub>
     </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/🔬_Research_XAI_Explainability-00ffcc?style=for-the-badge&labelColor=000305" alt="Research"/>
+    <td align="center" width="33%">
+      <img src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif" width="60" alt="Deploying"/><br>
+      <sub>Deploying</sub>
     </td>
   </tr>
 </table>
 
 <br>
 
-<!-- Development Activity Indicators -->
-<img src="https://img.shields.io/badge/📝_Last_Commit-2_Days_Ago-00ffcc?style=flat-square&labelColor=000305&logo=git&logoColor=00ffcc" alt="Last Commit"/>
-<img src="https://img.shields.io/badge/🌙_Night_Owl_Coder-Active-00ffcc?style=flat-square&labelColor=000305&logo=moon&logoColor=00ffcc" alt="Activity"/>
-<img src="https://img.shields.io/badge/☕_Powered_By-Coffee-ff3366?style=flat-square&labelColor=000305&logo=coffee&logoColor=ff3366" alt="Coffee"/>
+<!-- Animated Typing Effect -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&pause=500&color=00FFCC&center=true&vCenter=true&width=600&height=40&lines=Training+LLM+Models...;Deploying+RAG+Pipeline...;Optimizing+Neural+Nets...;Building+Multi-Agent+Systems..." alt="Typing"/>
+
+<br><br>
+
+<!-- Animated Commit Graph -->
+<img src="https://ghchart.rshah.org/4092FF/RichieDatalyst" alt="Commit Chart" style="border-radius: 10px;"/>
 
 </div>
 
