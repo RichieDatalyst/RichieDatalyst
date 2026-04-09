@@ -38,50 +38,55 @@
 
 <br><br>
 
-## 🔧 ACTIVE_TECH_STACK Technologies in Motion
+
+
+## 💻 LIVE_TERMINAL Development Session
 
 <div align="center">
 
-<!-- Animated Tech Stack - Scrolling Marquee -->
-<div style="overflow: hidden; white-space: nowrap; width: 100%;">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,keras,sklearn,pandas,numpy,matplotlib,fastapi,streamlit,langchain,docker,mongodb,mysql,git&theme=dark" alt="Tech Stack" style="animation: scroll 20s linear infinite;"/>
+<!-- Animated Terminal Window -->
+<div style="background: #000305; border: 2px solid #00ffcc; border-radius: 10px; padding: 20px; width: 90%; max-width: 800px; font-family: 'Courier New', monospace;">
+  
+  <div style="background: #003322; padding: 10px; border-radius: 5px; margin-bottom: 15px;">
+    <span style="color: #ff3366;">●</span> 
+    <span style="color: #00ffcc;">●</span> 
+    <span style="color: #44aaaa;">●</span> 
+    <span style="color: #88ddbb; margin-left: 10px;">RichieDatalyst@github:~</span>
+  </div>
+
+  <div style="color: #00ffcc; text-align: left; line-height: 1.8;">
+    <span style="color: #44aaaa;">$</span> python train_llm_model.py<br>
+    <span style="color: #88ddbb;">[INFO]</span> Loading dataset... <span style="color: #00ffcc;">✓</span><br>
+    <span style="color: #88ddbb;">[INFO]</span> Training epoch 45/100... <span style="color: #ff3366;">▓▓▓▓▓▓░░░░ 65%</span><br>
+    <span style="color: #88ddbb;">[INFO]</span> Loss: 0.0234 | Accuracy: 97.2%<br><br>
+    
+    <span style="color: #44aaaa;">$</span> deploy_rag_pipeline.sh<br>
+    <span style="color: #88ddbb;">[DEPLOY]</span> Container starting... <span style="color: #00ffcc;">🚀</span><br>
+    <span style="color: #88ddbb;">[DEPLOY]</span> Health check: <span style="color: #00ffcc;">PASSED</span><br><br>
+    
+    <span style="color: #44aaaa;">$</span> git status<br>
+    <span style="color: #88ddbb;">On branch:</span> <span style="color: #00ffcc;">main</span><br>
+    <span style="color: #88ddbb;">Changes:</span> <span style="color: #ff3366;">3 files modified</span><br>
+    <span style="color: #88ddbb;">Last commit:</span> <span style="color: #44aaaa;">2 hours ago</span><br><br>
+    
+    <span style="color: #44aaaa;">$</span> <span style="animation: blink 1s infinite;">_</span>
+  </div>
+
 </div>
 
 <style>
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
 }
 </style>
 
 <br><br>
 
-<!-- Animated Skill Indicators -->
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://i.imgur.com/animation1.gif" width="80" alt="ML"/><br>
-      <sub>Machine Learning</sub>
-    </td>
-    <td align="center">
-      <img src="https://i.imgur.com/animation2.gif" width="80" alt="DL"/><br>
-      <sub>Deep Learning</sub>
-    </td>
-    <td align="center">
-      <img src="https://i.imgur.com/animation3.gif" width="80" alt="NLP"/><br>
-      <sub>NLP & LLMs</sub>
-    </td>
-    <td align="center">
-      <img src="https://i.imgur.com/animation4.gif" width="80" alt="MLOps"/><br>
-      <sub>MLOps</sub>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- Animated Status Badge -->
-<img src="https://capsule-render.vercel.app/api?type=shark&color=00ffcc&height=60&section=footer&text=Currently+Building:+Multi-Agent+LLM+Systems&fontSize=18&fontColor=000305&animation=twinkling" alt="Status"/>
+<!-- Animated Badges -->
+<img src="https://img.shields.io/badge/_Commits_Today-12-00ffcc?style=for-the-badge&labelColor=000305" alt="Commits"/>
+<img src="https://img.shields.io/badge/_Lines_Written-1.2k-00ffcc?style=for-the-badge&labelColor=000305" alt="Lines"/>
+<img src="https://img.shields.io/badge/_Bugs_Fixed-3-00ffcc?style=for-the-badge&labelColor=000305" alt="Bugs"/>
 
 </div>
 
