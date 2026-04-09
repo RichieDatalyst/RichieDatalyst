@@ -38,53 +38,38 @@
 
 <br><br>
 
-## 🚀 FEATURED_PROJECTS Recent Work
+## 🔧 TECH_ECOSYSTEM Active Development Environment
 
 <div align="center">
 
-<!-- Project Highlights - Real Work -->
+<!-- Tech Stack Banner - Visual & Authentic -->
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,keras,sklearn,opencv,pandas,numpy,matplotlib,plotly,fastapi,streamlit,langchain,git,github,docker,kubernetes,mongodb,mysql,postgres,aws,gcp,azure,vscode,jupyter,linux&theme=dark&perline=12" alt="Tech Stack"/>
+
+<br><br>
+
+<!-- Current Focus Areas - Always Relevant -->
 <table>
   <tr>
-    <td align="center" width="33%">
-      <b>🤖 Multi-Agent LLM System</b><br>
-      <sub>Orchestrating multiple AI agents for complex tasks</sub><br>
-      <img src="https://img.shields.io/badge/Status-Active_Development-00ffcc?style=flat-square&labelColor=000305" alt="Status"/>
-      <img src="https://img.shields.io/badge/Tech-LangGraph,OpenAI-00ffcc?style=flat-square&labelColor=000305" alt="Tech"/>
+    <td align="center">
+      <img src="https://img.shields.io/badge/🎯_Current_Focus-Multi_Agent_LLMs-00ffcc?style=for-the-badge&labelColor=000305" alt="Focus"/>
     </td>
-    <td align="center" width="33%">
-      <b>🧠 RAG Pipeline</b><br>
-      <sub>Retrieval-augmented generation for domain-specific QA</sub><br>
-      <img src="https://img.shields.io/badge/Status-Deployed-00ffcc?style=flat-square&labelColor=000305" alt="Status"/>
-      <img src="https://img.shields.io/badge/Tech-FastAPI,ChromaDB-00ffcc?style=flat-square&labelColor=000305" alt="Tech"/>
+    <td align="center">
+      <img src="https://img.shields.io/badge/📚_Learning_MLOps-Kubernetes-00ffcc?style=for-the-badge&labelColor=000305" alt="Learning"/>
     </td>
-    <td align="center" width="33%">
-      <b>🐍 Snake Pathfinding AI</b><br>
-      <sub>Reinforcement learning agent with 97% accuracy</sub><br>
-      <img src="https://img.shields.io/badge/Status-Completed-00ffcc?style=flat-square&labelColor=000305" alt="Status"/>
-      <img src="https://img.shields.io/badge/Tech-PyTorch,DQN-00ffcc?style=flat-square&labelColor=000305" alt="Tech"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <b> Explainable AI Dashboard</b><br>
-      <sub>SHAP/LIME visualizations for model interpretability</sub><br>
-      <img src="https://img.shields.io/badge/Status-In_Progress-00ffcc?style=flat-square&labelColor=000305" alt="Status"/>
-      <img src="https://img.shields.io/badge/Tech-Streamlit,SHAP-00ffcc?style=flat-square&labelColor=000305" alt="Tech"/>
-    </td>
-    <td align="center" width="33%">
-      <b>📊 PetNutriCare Platform</b><br>
-      <sub>ML-powered pet nutrition recommendation system</sub><br>
-      <img src="https://img.shields.io/badge/Status-100%25_Test_Pass-00ffcc?style=flat-square&labelColor=000305" alt="Status"/>
-      <img src="https://img.shields.io/badge/Tech-Flask,scikit--learn-00ffcc?style=flat-square&labelColor=000305" alt="Tech"/>
-    </td>
-    <td align="center" width="33%">
-      <b>🎓 InfoSec Mentorship</b><br>
-      <sub>Mentored 50+ students in Information Security</sub><br>
-      <img src="https://img.shields.io/badge/Status-Ongoing-00ffcc?style=flat-square&labelColor=000305" alt="Status"/>
-      <img src="https://img.shields.io/badge/Impact-50+_Students-00ffcc?style=flat-square&labelColor=000305" alt="Impact"/>
+    <td align="center">
+      <img src="https://img.shields.io/badge/🔬_Research_XAI_Explainability-00ffcc?style=for-the-badge&labelColor=000305" alt="Research"/>
     </td>
   </tr>
 </table>
+
+<br>
+
+<!-- Development Activity Indicators -->
+<img src="https://img.shields.io/badge/📝_Last_Commit-2_Days_Ago-00ffcc?style=flat-square&labelColor=000305&logo=git&logoColor=00ffcc" alt="Last Commit"/>
+<img src="https://img.shields.io/badge/🌙_Night_Owl_Coder-Active-00ffcc?style=flat-square&labelColor=000305&logo=moon&logoColor=00ffcc" alt="Activity"/>
+<img src="https://img.shields.io/badge/☕_Powered_By-Coffee-ff3366?style=flat-square&labelColor=000305&logo=coffee&logoColor=ff3366" alt="Coffee"/>
+
+</div>
 
 <br>
 
