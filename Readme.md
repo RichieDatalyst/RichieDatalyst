@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Cyberpunk Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000305,30:001a11,70:003322,100:000305&height=300&section=header&text=Ameer%20Abdullah&fontSize=55&fontAlignY=45&fontColor=00ffcc&animation=fadeIn&desc=Data%20Scientist%20%7C%20AI%2ML%20Enthusiast%20%7C%20FAST%20NUCES%202025&descSize=18&descAlignY=65&descColor=44aaaa&stroke=00ffcc&strokeWidth=1.5" width="100%" alt="Header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000305,30:001a11,70:003322,100:000305&height=300&section=header&text=Ameer%20Abdullah&fontSize=55&fontAlignY=45&fontColor=00ffcc&animation=fadeIn&desc=Data%20Scientist%20%7C%20AI%2FML%20Engineer%20%7C%20FAST%20NUCES%202025&descSize=18&descAlignY=65&descColor=44aaaa&stroke=00ffcc&strokeWidth=1.5" width="100%" alt="Header"/>
 
 <br>
 
@@ -32,15 +32,15 @@
 
 <div align="center">
 
-<!-- GitHub Stats - Using Reliable Mirror Endpoint [[2]][[9]] -->
+<!-- GitHub Stats - Using Active Mirror [[9]] -->
 <img width="49%" src="https://github-readme-stats.shion.dev/api?username=RichieDatalyst&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=chartreuse-dark&bg_color=000305&border_color=00ffcc&icon_color=00ffcc&title_color=00ffcc&text_color=88ddbb&hide_border=true&rank_icon=github" alt="GitHub Stats"/>
 
-<!-- Top Languages - Same Reliable Mirror -->
+<!-- Top Languages - Same Mirror -->
 <img width="49%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=RichieDatalyst&layout=compact&theme=chartreuse-dark&bg_color=000305&border_color=00ffcc&title_color=00ffcc&text_color=88ddbb&hide_border=true&langs_count=10&card_width=400" alt="Top Languages"/>
 
 <br><br>
 
-<!-- Fallback Static Metrics - Always Render [[70]] -->
+<!-- Fallback Static Metrics - Always Render -->
 <table>
   <tr>
     <td align="center">
@@ -60,7 +60,7 @@
 
 <br><br>
 
-<!-- Streak Stats - Using Reliable Endpoint -->
+<!-- Streak Stats -->
 <img src="https://streak-stats.demolab.com/?user=RichieDatalyst&theme=chartreuse-dark&background=000305&border=00ffcc&stroke=00ffcc&ring=00ffcc&fire=ff3366&currStreakNum=00ffcc&sideNums=00ffcc&currStreakLabel=00ffcc&sideLabels=44aaaa&dates=44aaaa&hide_border=true" alt="Streak"/>
 
 <br><br>
@@ -76,22 +76,20 @@
 
 <div align="center">
 
-<!-- 3D Profile Contrib - Generated Locally by GitHub Action [[21]][[22]] -->
-<!-- Files must exist in your repo at output/profile-3d-contrib/ -->
+<!-- 3D Profile Contrib - Files generated to profile-3d-contrib/ in main branch [[3]] -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/output/profile-3d-contrib/profile-night-rainbow.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/output/profile-3d-contrib/profile-gitblock.svg"/>
-  <img width="95%" alt="3D Contribution Calendar" src="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/output/profile-3d-contrib/profile-night-rainbow.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/profile-3d-contrib/profile-night-rainbow.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/profile-3d-contrib/profile-gitblock.svg"/>
+  <img width="95%" alt="3D Contribution Calendar" src="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/profile-3d-contrib/profile-night-rainbow.svg"/>
 </picture>
 
 <br><br>
 
-<!-- Snake Animation - Generated Locally by GitHub Action [[34]][[35]] -->
-<!-- Files must exist in your repo at output/github-contribution-grid-snake* -->
+<!-- Snake Animation - Files pushed to 'output' branch via gh-pages action [[35]] -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/output/github-contribution-grid-snake.svg"/>
-  <img width="95%" alt="Snake Animation" src="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/github-contribution-grid-snake.svg"/>
+  <img width="95%" alt="Snake Animation" src="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
 
 </div>
@@ -102,17 +100,17 @@
 
 <div align="center">
 
-<!-- Fixed Trophy URL - Using Volunteer Mirror Endpoint [[11]][[12]] -->
+<!-- Trophy Mirror Endpoint [[11]][[12]] -->
 <img src="https://github-profile-trophy-reiyua-mirror.vercel.app/?username=RichieDatalyst&theme=tokyonight&no-frame=false&no-bg=true&margin-w=12&column=-1&title=Stars,Commits,PR,Issues,Followers,Repositories,MultiLanguage" alt="GitHub Trophies"/>
 
 <br>
 
-<!-- Secondary Trophy Row with Different Theme -->
+<!-- Secondary Trophy Row -->
 <img src="https://github-profile-trophy-reiyua-mirror.vercel.app/?username=RichieDatalyst&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&rank=S,SS,SSS,AAA&title=-Discord,-Twitter" alt="Rank Trophies"/>
 
 <br><br>
 
-<!-- Fallback Achievement Badges if Trophies Fail -->
+<!-- Fallback Achievement Badges -->
 <table>
   <tr>
     <td align="center">
@@ -253,8 +251,7 @@
 
 <br><br>
 
-<!-- Pinned Repositories - Using GitHub Native Pin Feature -->
-<!-- Ensure these repos are actually pinned on your profile at github.com/RichieDatalyst -->
+<!-- Pinned Repositories - Ensure repos are pinned at github.com/RichieDatalyst -->
 <table>
   <tr>
     <td align="center">
