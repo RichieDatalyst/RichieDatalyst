@@ -2,8 +2,8 @@ name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    - cron: "0 18 * * *"  # Runs daily at 6 PM UTC
-  workflow_dispatch:     # Allows manual trigger
+    - cron: "0 18 * * *"  # Daily at 6 PM UTC
+  workflow_dispatch:      # Manual trigger
 
 permissions:
   contents: write
@@ -14,7 +14,7 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@main
+      - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
@@ -23,5 +23,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A output/profile-3d-contrib/
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update 3d contribution calendar"
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update 3d contribution"
           git push
