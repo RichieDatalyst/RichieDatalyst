@@ -1,0 +1,348 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Deep space background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000305"/>
+      <stop offset="45%" style="stop-color:#001a0f"/>
+      <stop offset="100%" style="stop-color:#000510"/>
+    </linearGradient>
+
+    <!-- Cyan glow for nodes -->
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00ffcc;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#00ffcc;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Central orb glow -->
+    <radialGradient id="orbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00ffcc;stop-opacity:0.18"/>
+      <stop offset="60%" style="stop-color:#00ccff;stop-opacity:0.05"/>
+      <stop offset="100%" style="stop-color:#000305;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Text glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle glow filter for lines -->
+    <filter id="lineGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scanline pattern -->
+    <pattern id="scan" x="0" y="0" width="900" height="4" patternUnits="userSpaceOnUse">
+      <rect width="900" height="1" y="0" fill="rgba(0,255,204,0.018)"/>
+    </pattern>
+
+    <!-- Grid dots -->
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="0.7" fill="rgba(0,255,204,0.12)"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" fill="url(#bg)"/>
+  <!-- Dot grid -->
+  <rect width="900" height="280" fill="url(#grid)"/>
+  <!-- Scanlines -->
+  <rect width="900" height="280" fill="url(#scan)"/>
+
+  <!-- Central orb -->
+  <ellipse cx="450" cy="140" rx="200" ry="130" fill="url(#orbGlow)"/>
+
+  <!-- ===== NEURAL NETWORK EDGES ===== -->
+  <!-- Left cluster edges -->
+  <g filter="url(#lineGlow)" opacity="0.35">
+    <line x1="80" y1="60" x2="160" y2="110" stroke="#00ffcc" stroke-width="0.6">
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="80" y1="60" x2="120" y2="180" stroke="#00ffcc" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="4.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="180" x2="160" y2="110" stroke="#00ccff" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.25;0.55;0.25" dur="3.7s" repeatCount="indefinite"/>
+    </line>
+    <line x1="40" y1="140" x2="80" y2="60" stroke="#00ffcc" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="5.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="40" y1="140" x2="120" y2="180" stroke="#00ccff" stroke-width="0.6">
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3.9s" repeatCount="indefinite"/>
+    </line>
+    <line x1="160" y1="110" x2="230" y2="90" stroke="#00ffcc" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="180" x2="200" y2="220" stroke="#00ffcc" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.15;0.4;0.15" dur="6.0s" repeatCount="indefinite"/>
+    </line>
+    <line x1="40" y1="140" x2="160" y2="110" stroke="#00ffcc" stroke-width="0.4">
+      <animate attributeName="opacity" values="0.1;0.35;0.1" dur="7.2s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Right cluster edges -->
+  <g filter="url(#lineGlow)" opacity="0.35">
+    <line x1="820" y1="60" x2="740" y2="110" stroke="#00ffcc" stroke-width="0.6">
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="820" y1="60" x2="780" y2="180" stroke="#00ffcc" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="4.0s" repeatCount="indefinite"/>
+    </line>
+    <line x1="780" y1="180" x2="740" y2="110" stroke="#00ccff" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.25;0.55;0.25" dur="3.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="860" y1="140" x2="820" y2="60" stroke="#00ffcc" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="860" y1="140" x2="780" y2="180" stroke="#00ccff" stroke-width="0.6">
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3.6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="740" y1="110" x2="670" y2="90" stroke="#00ffcc" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="5.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="780" y1="180" x2="700" y2="220" stroke="#00ffcc" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.15;0.4;0.15" dur="5.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="860" y1="140" x2="740" y2="110" stroke="#00ffcc" stroke-width="0.4">
+      <animate attributeName="opacity" values="0.1;0.35;0.1" dur="6.9s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Centre connections to clusters -->
+  <g filter="url(#lineGlow)" opacity="0.25">
+    <line x1="230" y1="90" x2="350" y2="120" stroke="#00ffcc" stroke-width="0.6">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="200" y1="220" x2="330" y2="190" stroke="#00ccff" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.15;0.45;0.15" dur="5.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="670" y1="90" x2="550" y2="120" stroke="#00ffcc" stroke-width="0.6">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="700" y1="220" x2="570" y2="190" stroke="#00ccff" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.15;0.45;0.15" dur="5.2s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- ===== NEURAL NODES — LEFT CLUSTER ===== -->
+  <!-- Large nodes -->
+  <circle cx="80" cy="60" r="5" fill="#001a0f" stroke="#00ffcc" stroke-width="1.2">
+    <animate attributeName="r" values="5;6.5;5" dur="3.1s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="80" cy="60" r="2" fill="#00ffcc" opacity="0.9"/>
+
+  <circle cx="120" cy="180" r="6" fill="#001a0f" stroke="#00ffcc" stroke-width="1.2">
+    <animate attributeName="r" values="6;7.5;6" dur="4.2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="180" r="2.5" fill="#00ffcc" opacity="0.9"/>
+
+  <circle cx="160" cy="110" r="8" fill="#001a0f" stroke="#00ffcc" stroke-width="1.5">
+    <animate attributeName="r" values="8;10;8" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="160" cy="110" r="3.5" fill="#00ffcc" opacity="1">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="40" cy="140" r="4" fill="#001a0f" stroke="#00ccff" stroke-width="1">
+    <animate attributeName="r" values="4;5.5;4" dur="5.0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="40" cy="140" r="1.5" fill="#00ccff" opacity="0.8"/>
+
+  <circle cx="230" cy="90" r="5" fill="#001a0f" stroke="#00ffcc" stroke-width="1">
+    <animate attributeName="r" values="5;6;5" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="230" cy="90" r="2" fill="#00ffcc" opacity="0.85"/>
+
+  <circle cx="200" cy="220" r="4" fill="#001a0f" stroke="#00ccff" stroke-width="0.8">
+    <animate attributeName="r" values="4;5;4" dur="6.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="220" r="1.5" fill="#00ccff" opacity="0.7"/>
+
+  <!-- ===== NEURAL NODES — RIGHT CLUSTER ===== -->
+  <circle cx="820" cy="60" r="5" fill="#001a0f" stroke="#00ffcc" stroke-width="1.2">
+    <animate attributeName="r" values="5;6.5;5" dur="3.3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="60" r="2" fill="#00ffcc" opacity="0.9"/>
+
+  <circle cx="780" cy="180" r="6" fill="#001a0f" stroke="#00ffcc" stroke-width="1.2">
+    <animate attributeName="r" values="6;7.5;6" dur="4.0s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="4.0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="780" cy="180" r="2.5" fill="#00ffcc" opacity="0.9"/>
+
+  <circle cx="740" cy="110" r="8" fill="#001a0f" stroke="#00ffcc" stroke-width="1.5">
+    <animate attributeName="r" values="8;10;8" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="740" cy="110" r="3.5" fill="#00ffcc" opacity="1">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="860" cy="140" r="4" fill="#001a0f" stroke="#00ccff" stroke-width="1">
+    <animate attributeName="r" values="4;5.5;4" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="860" cy="140" r="1.5" fill="#00ccff" opacity="0.8"/>
+
+  <circle cx="670" cy="90" r="5" fill="#001a0f" stroke="#00ffcc" stroke-width="1">
+    <animate attributeName="r" values="5;6;5" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="670" cy="90" r="2" fill="#00ffcc" opacity="0.85"/>
+
+  <circle cx="700" cy="220" r="4" fill="#001a0f" stroke="#00ccff" stroke-width="0.8">
+    <animate attributeName="r" values="4;5;4" dur="5.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="220" r="1.5" fill="#00ccff" opacity="0.7"/>
+
+  <!-- ===== FLOATING DATA PARTICLES ===== -->
+  <!-- Left side stream -->
+  <circle cx="55" cy="30" r="1.2" fill="#00ffcc" opacity="0.6">
+    <animate attributeName="cy" values="30;260;30" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.7;0" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="130" r="0.9" fill="#00ccff" opacity="0.5">
+    <animate attributeName="cy" values="130;280;0;130" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.5;0;0.5" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="30" cy="80" r="1" fill="#00ffcc" opacity="0.4">
+    <animate attributeName="cy" values="80;260;80" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="11s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Right side stream -->
+  <circle cx="845" cy="50" r="1.2" fill="#00ffcc" opacity="0.6">
+    <animate attributeName="cy" values="50;270;50" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.7;0" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="800" cy="160" r="0.9" fill="#00ccff" opacity="0.5">
+    <animate attributeName="cy" values="160;280;0;160" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.5;0;0.5" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="870" cy="100" r="1" fill="#00ffcc" opacity="0.4">
+    <animate attributeName="cy" values="100;270;100" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="12s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ===== SKILL LABELS (orbiting nodes, text only on desktop) ===== -->
+  <!-- Left cluster labels -->
+  <text x="83" y="48" font-family="'Share Tech Mono', monospace" font-size="7" fill="#00ffcc" opacity="0.55" text-anchor="middle">NLP</text>
+  <text x="120" y="196" font-family="'Share Tech Mono', monospace" font-size="7" fill="#00ffcc" opacity="0.55" text-anchor="middle">RAG</text>
+  <text x="162" y="126" font-family="'Share Tech Mono', monospace" font-size="7" fill="#00ffcc" opacity="0.7" text-anchor="middle">ML</text>
+  <text x="38" y="155" font-family="'Share Tech Mono', monospace" font-size="6" fill="#00ccff" opacity="0.5" text-anchor="middle">LLM</text>
+  <text x="230" y="78" font-family="'Share Tech Mono', monospace" font-size="7" fill="#00ffcc" opacity="0.55" text-anchor="middle">SHAP</text>
+
+  <!-- Right cluster labels -->
+  <text x="820" y="48" font-family="'Share Tech Mono', monospace" font-size="7" fill="#00ffcc" opacity="0.55" text-anchor="middle">RAG</text>
+  <text x="780" y="196" font-family="'Share Tech Mono', monospace" font-size="7" fill="#00ffcc" opacity="0.55" text-anchor="middle">NLP</text>
+  <text x="738" y="126" font-family="'Share Tech Mono', monospace" font-size="7" fill="#00ffcc" opacity="0.7" text-anchor="middle">AI</text>
+  <text x="862" y="155" font-family="'Share Tech Mono', monospace" font-size="6" fill="#00ccff" opacity="0.5" text-anchor="middle">DL</text>
+  <text x="670" y="78" font-family="'Share Tech Mono', monospace" font-size="7" fill="#00ffcc" opacity="0.55" text-anchor="middle">FAISS</text>
+
+  <!-- ===== CORNER HUD BRACKETS ===== -->
+  <!-- Top-left -->
+  <path d="M 12 12 L 12 32 M 12 12 L 32 12" stroke="#00ffcc" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- Top-right -->
+  <path d="M 888 12 L 888 32 M 888 12 L 868 12" stroke="#00ffcc" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- Bottom-left -->
+  <path d="M 12 268 L 12 248 M 12 268 L 32 268" stroke="#00ffcc" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- Bottom-right -->
+  <path d="M 888 268 L 888 248 M 888 268 L 868 268" stroke="#00ffcc" stroke-width="1" fill="none" opacity="0.5"/>
+
+  <!-- Top HUD line -->
+  <line x1="40" y1="18" x2="860" y2="18" stroke="#00ffcc" stroke-width="0.4" opacity="0.2"/>
+  <!-- Bottom HUD line -->
+  <line x1="40" y1="262" x2="860" y2="262" stroke="#00ffcc" stroke-width="0.4" opacity="0.2"/>
+
+  <!-- HUD coords top-left -->
+  <text x="18" y="29" font-family="'Share Tech Mono', monospace" font-size="6.5" fill="#00ffcc" opacity="0.3">31.5204N / 74.3587E</text>
+  <!-- HUD status top-right -->
+  <text x="882" y="29" font-family="'Share Tech Mono', monospace" font-size="6.5" fill="#00ffcc" opacity="0.3" text-anchor="end">STATUS: OPEN TO WORK</text>
+  <!-- HUD bottom-left -->
+  <text x="18" y="257" font-family="'Share Tech Mono', monospace" font-size="6.5" fill="#00ffcc" opacity="0.3">FAST NUCES / 2025</text>
+  <!-- HUD bottom-right -->
+  <text x="882" y="257" font-family="'Share Tech Mono', monospace" font-size="6.5" fill="#00ffcc" opacity="0.3" text-anchor="end">github.com/RichieDatalyst</text>
+
+  <!-- ===== MAIN TEXT ===== -->
+  <!-- Name — AMEER outlined -->
+  <text x="450" y="118"
+    font-family="'Share Tech Mono', monospace"
+    font-size="68"
+    font-weight="700"
+    fill="none"
+    stroke="#00ffcc"
+    stroke-width="0.8"
+    text-anchor="middle"
+    opacity="0.18"
+    letter-spacing="18">AMEER</text>
+
+  <!-- Name — AMEER solid with glow -->
+  <text x="450" y="118"
+    font-family="'Share Tech Mono', monospace"
+    font-size="68"
+    font-weight="700"
+    fill="#00ffcc"
+    text-anchor="middle"
+    filter="url(#glow)"
+    letter-spacing="18">
+    AMEER
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Name — ABDULLAH outlined ghost -->
+  <text x="450" y="178"
+    font-family="'Share Tech Mono', monospace"
+    font-size="68"
+    font-weight="700"
+    fill="none"
+    stroke="#00ffcc"
+    stroke-width="0.8"
+    text-anchor="middle"
+    opacity="0.18"
+    letter-spacing="10">ABDULLAH</text>
+
+  <!-- Name — ABDULLAH solid -->
+  <text x="450" y="178"
+    font-family="'Share Tech Mono', monospace"
+    font-size="68"
+    font-weight="700"
+    fill="none"
+    stroke="#00ffcc"
+    stroke-width="1.4"
+    text-anchor="middle"
+    filter="url(#glow)"
+    letter-spacing="10">
+    ABDULLAH
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="4.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Role subtitle -->
+  <text x="450" y="210"
+    font-family="'Share Tech Mono', monospace"
+    font-size="11"
+    fill="#44aaaa"
+    text-anchor="middle"
+    letter-spacing="3">
+    DATA SCIENTIST  /  AI ENGINEER  /  FAST NUCES 2025
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Divider lines around subtitle -->
+  <line x1="270" y1="218" x2="385" y2="218" stroke="#00ffcc" stroke-width="0.5" opacity="0.25"/>
+  <line x1="515" y1="218" x2="630" y2="218" stroke="#00ffcc" stroke-width="0.5" opacity="0.25"/>
+
+  <!-- Blinking cursor after name -->
+  <rect x="720" y="155" width="8" height="2" fill="#00ffcc" opacity="0.7">
+    <animate attributeName="opacity" values="0;0.8;0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
