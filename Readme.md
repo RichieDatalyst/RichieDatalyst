@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Cyberpunk Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000305,30:001a11,70:003322,100:000305&height=300&section=header&text=Ameer%20Abdullah&fontSize=55&fontAlignY=45&fontColor=00ffcc&animation=fadeIn&desc=Data%20Scientist%20%7C%20AI%2FML%20Engineer%20%7C%20FAST%20NUCES%202025&descSize=18&descAlignY=65&descColor=44aaaa&stroke=00ffcc&strokeWidth=1.5" width="100%" alt="Header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000305,30:001a11,70:003322,100:000305&height=300&section=header&text=Ameer%20Abdullah&fontSize=55&fontAlignY=45&fontColor=00ffcc&animation=fadeIn&desc=Data%20Scientist%20%7C%20AI%2FML%20Enthusiast%20%7C%20FAST%20NUCES%202025&descSize=18&descAlignY=65&descColor=44aaaa&stroke=00ffcc&strokeWidth=1.5" width="100%" alt="Header"/>
 
 <br>
 
@@ -27,8 +27,6 @@
 </div>
 
 ---
-
-## 3D_PROFILE_STATS Comprehensive GitHub Analytics
 
 <div align="center">
 
@@ -72,7 +70,6 @@
 
 ---
 
-## 3D_CONTRIBUTION_VISUAL Interactive Contribution Calendar
 
 <div align="center">
 
@@ -96,7 +93,6 @@
 
 ---
 
-## ACHIEVEMENTS_TROPHIES GitHub Profile Trophies
 
 <div align="center">
 
@@ -129,11 +125,10 @@
 
 ---
 
-## TECH_STACK_3D Languages & Tools
 
 <div align="center">
 
-### Core Programming
+
 <img src="https://img.shields.io/badge/Python-000305?style=for-the-badge&logo=python&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/SQL-000305?style=for-the-badge&logo=mysql&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/LaTeX-000305?style=for-the-badge&logo=latex&logoColor=00ffcc&labelColor=000305"/>
@@ -141,7 +136,7 @@
 
 <br>
 
-### AI & Machine Learning
+
 <img src="https://img.shields.io/badge/PyTorch-000305?style=for-the-badge&logo=pytorch&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/TensorFlow-000305?style=for-the-badge&logo=tensorflow&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/Keras-000305?style=for-the-badge&logo=keras&logoColor=00ffcc&labelColor=000305"/>
@@ -150,7 +145,6 @@
 
 <br>
 
-### Data Science & Visualization
 <img src="https://img.shields.io/badge/Pandas-000305?style=for-the-badge&logo=pandas&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/NumPy-000305?style=for-the-badge&logo=numpy&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/Matplotlib-000305?style=for-the-badge&logo=python&logoColor=00ffcc&labelColor=000305"/>
@@ -159,7 +153,7 @@
 
 <br>
 
-### LLM & MLOps
+
 <img src="https://img.shields.io/badge/LangChain-000305?style=for-the-badge&logo=chainlink&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/LangGraph-000305?style=for-the-badge&logo=graphql&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/Streamlit-000305?style=for-the-badge&logo=streamlit&logoColor=00ffcc&labelColor=000305"/>
@@ -168,7 +162,6 @@
 
 <br>
 
-### Databases & BI
 <img src="https://img.shields.io/badge/MongoDB-000305?style=for-the-badge&logo=mongodb&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/MySQL-000305?style=for-the-badge&logo=mysql&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/MSSQL-000305?style=for-the-badge&logo=microsoftsqlserver&logoColor=00ffcc&labelColor=000305"/>
@@ -177,7 +170,7 @@
 
 <br>
 
-### DevOps & Tools
+
 <img src="https://img.shields.io/badge/Git-000305?style=for-the-badge&logo=git&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/GitHub-000305?style=for-the-badge&logo=github&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/GitHub%20Actions-000305?style=for-the-badge&logo=githubactions&logoColor=00ffcc&labelColor=000305"/>
@@ -187,8 +180,6 @@
 </div>
 
 ---
-
-## KEY_METRICS Performance Highlights
 
 <div align="center">
 
@@ -227,7 +218,6 @@
 
 ---
 
-## CONNECT_3D Professional Network
 
 <div align="center">
 
