@@ -204,7 +204,7 @@
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/RichieDatalyst/RichieDatalyst">
+      <a href="https://github.com/RichieDatalyst">
         <img src="https://img.shields.io/badge/Profile_Repo-README_Template-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Profile Repo"/>
       </a>
     </td>
