@@ -38,23 +38,61 @@
 
 <br><br>
 
-<!-- Fallback Static Metrics - Always Render -->
+## 🚀 FEATURED_PROJECTS Recent Work
+
+<div align="center">
+
+<!-- Project Highlights - Real Work -->
 <table>
   <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Commits-2500+-00ffcc?style=for-the-badge&labelColor=000305&logo=git&logoColor=00ffcc" alt="Commits"/>
+    <td align="center" width="33%">
+      <b>🤖 Multi-Agent LLM System</b><br>
+      <sub>Orchestrating multiple AI agents for complex tasks</sub><br>
+      <img src="https://img.shields.io/badge/Status-Active_Development-00ffcc?style=flat-square&labelColor=000305" alt="Status"/>
+      <img src="https://img.shields.io/badge/Tech-LangGraph,OpenAI-00ffcc?style=flat-square&labelColor=000305" alt="Tech"/>
     </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Repositories-35-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Repos"/>
+    <td align="center" width="33%">
+      <b>🧠 RAG Pipeline</b><br>
+      <sub>Retrieval-augmented generation for domain-specific QA</sub><br>
+      <img src="https://img.shields.io/badge/Status-Deployed-00ffcc?style=flat-square&labelColor=000305" alt="Status"/>
+      <img src="https://img.shields.io/badge/Tech-FastAPI,ChromaDB-00ffcc?style=flat-square&labelColor=000305" alt="Tech"/>
     </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Pull_Requests-120+-00ffcc?style=for-the-badge&labelColor=000305&logo=git&logoColor=00ffcc" alt="PRs"/>
+    <td align="center" width="33%">
+      <b>🐍 Snake Pathfinding AI</b><br>
+      <sub>Reinforcement learning agent with 97% accuracy</sub><br>
+      <img src="https://img.shields.io/badge/Status-Completed-00ffcc?style=flat-square&labelColor=000305" alt="Status"/>
+      <img src="https://img.shields.io/badge/Tech-PyTorch,DQN-00ffcc?style=flat-square&labelColor=000305" alt="Tech"/>
     </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Issues_Resolved-85-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Issues"/>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <b> Explainable AI Dashboard</b><br>
+      <sub>SHAP/LIME visualizations for model interpretability</sub><br>
+      <img src="https://img.shields.io/badge/Status-In_Progress-00ffcc?style=flat-square&labelColor=000305" alt="Status"/>
+      <img src="https://img.shields.io/badge/Tech-Streamlit,SHAP-00ffcc?style=flat-square&labelColor=000305" alt="Tech"/>
+    </td>
+    <td align="center" width="33%">
+      <b>📊 PetNutriCare Platform</b><br>
+      <sub>ML-powered pet nutrition recommendation system</sub><br>
+      <img src="https://img.shields.io/badge/Status-100%25_Test_Pass-00ffcc?style=flat-square&labelColor=000305" alt="Status"/>
+      <img src="https://img.shields.io/badge/Tech-Flask,scikit--learn-00ffcc?style=flat-square&labelColor=000305" alt="Tech"/>
+    </td>
+    <td align="center" width="33%">
+      <b>🎓 InfoSec Mentorship</b><br>
+      <sub>Mentored 50+ students in Information Security</sub><br>
+      <img src="https://img.shields.io/badge/Status-Ongoing-00ffcc?style=flat-square&labelColor=000305" alt="Status"/>
+      <img src="https://img.shields.io/badge/Impact-50+_Students-00ffcc?style=flat-square&labelColor=000305" alt="Impact"/>
     </td>
   </tr>
 </table>
+
+<br>
+
+<!-- GitHub Stats - Real Metrics Only -->
+<img src="https://img.shields.io/github/stars/RichieDatalyst?style=for-the-badge&label=Total_Stars&color=00ffcc&labelColor=000305&logo=github&logoColor=00ffcc" alt="Stars"/>
+<img src="https://img.shields.io/github/repo-size/RichieDatalyst/RichieDatalyst?style=for-the-badge&label=Profile_Size&color=00ffcc&labelColor=000305&logo=github&logoColor=00ffcc" alt="Repo Size"/>
+
+</div>
 
 <br><br>
 
@@ -99,21 +137,6 @@
 
 
 <br><br>
-
-<!-- Fallback Achievement Badges -->
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Stars_Earned-500+-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Stars"/>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/PRs_Merged-95%25-00ffcc?style=for-the-badge&labelColor=000305&logo=git&logoColor=00ffcc" alt="PR Merge Rate"/>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Contributions-Active_Daily-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Active"/>
-    </td>
-  </tr>
-</table>
 
 </div>
 
