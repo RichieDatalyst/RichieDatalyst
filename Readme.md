@@ -90,11 +90,7 @@
 <img src="https://img.shields.io/badge/Python-000305?style=for-the-badge&logo=python&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/SQL-000305?style=for-the-badge&logo=mysql&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/LaTeX-000305?style=for-the-badge&logo=latex&logoColor=00ffcc&labelColor=000305"/>
-<img src="https://img.shields.io/badge/Markdown-000305?style=for-the-badge&logo=markdown&logoColor=00ffcc&labelColor=000305"/>
-
 <br>
-
-
 <img src="https://img.shields.io/badge/PyTorch-000305?style=for-the-badge&logo=pytorch&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/TensorFlow-000305?style=for-the-badge&logo=tensorflow&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/Keras-000305?style=for-the-badge&logo=keras&logoColor=00ffcc&labelColor=000305"/>
@@ -124,11 +120,11 @@
 <img src="https://img.shields.io/badge/Git-000305?style=for-the-badge&logo=git&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/GitHub-000305?style=for-the-badge&logo=github&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/GitHub%20Actions-000305?style=for-the-badge&logo=githubactions&logoColor=00ffcc&labelColor=000305"/>
-<img src="https://img.shields.io/badge/VS_Code-000305?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC&labelColor=000305"/>
+<img src="https://img.shields.io/badge/VS_Code-000305?style=for-the-badge&logo=visualstudiocode&logoColor=21A3EF&labelColor=000305"/>
 <img src="https://img.shields.io/badge/Canva-000305?style=for-the-badge&logo=canva&logoColor=00C4CC&labelColor=000305"/>
-<img src="https://img.shields.io/badge/Power_BI-000305?style=for-the-badge&logo=power-bi&logoColor=F2C811&labelColor=000305"/>
+<img src="https://img.shields.io/badge/Power_BI-000305?style=for-the-badge&logo=powerbi&logoColor=F2C811&labelColor=000305"/>
 
-
+<br>
 </div>
 
 <div align="center">
