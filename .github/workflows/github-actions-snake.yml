@@ -2,25 +2,24 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */6 * * *"  # Runs every 6 hours
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
       - uses: Platane/snk@v3
         with:
           github_user_name: RichieDatalyst
           outputs: |
             output/github-contribution-grid-snake.svg
             output/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - name: Commit & Push
+      - name: Commit generated files
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -A .
-          if git commit -m "generated"; then
-            git push
-          fi
+          git add -A output/github-contribution-grid-snake*
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update snake animation"
+          git push
