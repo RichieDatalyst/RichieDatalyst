@@ -200,22 +200,6 @@
 
 <br><br>
 
-<!-- Pinned Repositories - Ensure repos are pinned at github.com/RichieDatalyst -->
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/RichieDatalyst">
-        <img src="https://img.shields.io/badge/Profile_Repo-README_Template-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Profile Repo"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/RichieDatalyst">
-        <img src="https://img.shields.io/badge/View_All-Repositories-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="All Repos"/>
-      </a>
-    </td>
-  </tr>
-</table>
-
 </div>
 
 ---
@@ -226,7 +210,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000305,50:003322,100:000305&height=100&section=footer&fontColor=00ffcc&stroke=00ffcc&strokeWidth=1&text=Thank+you+for+visiting&fontSize=24&fontAlignY=50" width="100%" alt="Footer"/>
 
 <br>
-
-<img src="https://img.shields.io/badge/Last_Updated-Auto_Refresh_Daily-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="Last Updated"/>
 
 </div>
