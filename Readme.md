@@ -121,10 +121,6 @@
 <br>
 
 <img src="https://img.shields.io/badge/MongoDB-000305?style=for-the-badge&logo=mongodb&logoColor=00ffcc&labelColor=000305"/>
-<img src="https://img.shields.io/badge/MySQL-000305?style=for-the-badge&logo=mysql&logoColor=00ffcc&labelColor=000305"/>
-<img src="https://img.shields.io/badge/MSSQL-000305?style=for-the-badge&logo=microsoftsqlserver&logoColor=00ffcc&labelColor=000305"/>
-<img src="https://img.shields.io/badge/Anaconda-000305?style=for-the-badge&logo=anaconda&logoColor=00ffcc&labelColor=000305"/>
-<img src="https://img.shields.io/badge/Power%20BI-000305?style=for-the-badge&logo=powerbi&logoColor=00ffcc&labelColor=000305"/>
 
 <br>
 
@@ -132,50 +128,11 @@
 <img src="https://img.shields.io/badge/Git-000305?style=for-the-badge&logo=git&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/GitHub-000305?style=for-the-badge&logo=github&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/GitHub%20Actions-000305?style=for-the-badge&logo=githubactions&logoColor=00ffcc&labelColor=000305"/>
-<img src="https://img.shields.io/badge/VS%20Code-000305?style=for-the-badge&logo=visualstudiocode&logoColor=00ffcc&labelColor=000305"/>
-<img src="https://img.shields.io/badge/Canva-000305?style=for-the-badge&logo=canva&logoColor=00ffcc&labelColor=000305"/>
+<img src="https://img.shields.io/badge/VS_Code-000305?style=for-the-badge&logo=visual-studio-code&logoColor=0099ff&labelColor=000305&color=000305"/>
+<img src="https://img.shields.io/badge/Canva-000305?style=for-the-badge&logo=canva&logoColor=00C4CC&labelColor=000305&color=000305"/>
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000305&labelColor=000305"/>
 
 </div>
-
----
-
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/ML_Models-6_Deployed-00ffcc?style=for-the-badge&labelColor=000305"/>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Training_Steps-4.5M+-00ffcc?style=for-the-badge&labelColor=000305"/>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Prediction_Accuracy-97%25-00ffcc?style=for-the-badge&labelColor=000305"/>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/LLM_Providers-4_Integrated-00ffcc?style=for-the-badge&labelColor=000305"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Test_Pass_Rate-100%25-00ffcc?style=for-the-badge&labelColor=000305"/>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Functional_Modules-10_Complete-00ffcc?style=for-the-badge&labelColor=000305"/>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Students_Mentored-50+-00ffcc?style=for-the-badge&labelColor=000305"/>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/RAG_Pipelines-Production_Ready-00ffcc?style=for-the-badge&labelColor=000305"/>
-    </td>
-  </tr>
-</table>
-
-</div>
-
----
-
 
 <div align="center">
 
