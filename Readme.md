@@ -77,7 +77,7 @@
 ### `[ ACHIEVEMENTS ]`
 
 <br>
-https://github-profile-trophy.vercel.app/?username=RichieDatalyst-ma&theme=tokyonight
+[![trophy](https://github-profile-trophy.vercel.app/?username=RichieDatalyst-ma&theme=tokyonight)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
