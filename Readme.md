@@ -4,7 +4,7 @@
 <!--                     ANIMATED BANNER                        -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-![header](https://capsule-render.vercel.app/api?type=venom&color=0:000305,50:003322,100:000305&height=280&section=header&text=Ameer%20Abdullah&fontSize=62&fontColor=00ffcc&animation=twinkling&fontAlignY=55&desc=Data%20Scientist%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20FAST%20NUCES%202025&descSize=16&descAlignY=74&descColor=44aaaa&stroke=00ffcc&strokeWidth=1)
+![header](https://capsule-render.vercel.app/api?type=venom&color=0:000305,50:003322,100:000305&height=280&section=header&text=Ameer%20Abdullah&fontSize=62&fontColor=00ffcc&animation=twinkling&fontAlignY=55&desc=Data%20Scientist%20%E2%80%A2%20AI/ML%20Enthusiast%20%E2%80%A2%20FAST%20NUCES%202025&descSize=16&descAlignY=74&descColor=44aaaa&stroke=00ffcc&strokeWidth=1)
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                     TYPING ANIMATION                       -->
