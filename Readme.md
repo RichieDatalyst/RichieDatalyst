@@ -38,58 +38,6 @@
 
 <br><br>
 
-
-
-## 💻 LIVE_TERMINAL Development Session
-
-<div align="center">
-
-<!-- Animated Terminal Window -->
-<div style="background: #000305; border: 2px solid #00ffcc; border-radius: 10px; padding: 20px; width: 90%; max-width: 800px; font-family: 'Courier New', monospace;">
-  
-  <div style="background: #003322; padding: 10px; border-radius: 5px; margin-bottom: 15px;">
-    <span style="color: #ff3366;">●</span> 
-    <span style="color: #00ffcc;">●</span> 
-    <span style="color: #44aaaa;">●</span> 
-    <span style="color: #88ddbb; margin-left: 10px;">RichieDatalyst@github:~</span>
-  </div>
-
-  <div style="color: #00ffcc; text-align: left; line-height: 1.8;">
-    <span style="color: #44aaaa;">$</span> python train_llm_model.py<br>
-    <span style="color: #88ddbb;">[INFO]</span> Loading dataset... <span style="color: #00ffcc;">✓</span><br>
-    <span style="color: #88ddbb;">[INFO]</span> Training epoch 45/100... <span style="color: #ff3366;">▓▓▓▓▓▓░░░░ 65%</span><br>
-    <span style="color: #88ddbb;">[INFO]</span> Loss: 0.0234 | Accuracy: 97.2%<br><br>
-    
-    <span style="color: #44aaaa;">$</span> deploy_rag_pipeline.sh<br>
-    <span style="color: #88ddbb;">[DEPLOY]</span> Container starting... <span style="color: #00ffcc;">🚀</span><br>
-    <span style="color: #88ddbb;">[DEPLOY]</span> Health check: <span style="color: #00ffcc;">PASSED</span><br><br>
-    
-    <span style="color: #44aaaa;">$</span> git status<br>
-    <span style="color: #88ddbb;">On branch:</span> <span style="color: #00ffcc;">main</span><br>
-    <span style="color: #88ddbb;">Changes:</span> <span style="color: #ff3366;">3 files modified</span><br>
-    <span style="color: #88ddbb;">Last commit:</span> <span style="color: #44aaaa;">2 hours ago</span><br><br>
-    
-    <span style="color: #44aaaa;">$</span> <span style="animation: blink 1s infinite;">_</span>
-  </div>
-
-</div>
-
-<style>
-@keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0; }
-}
-</style>
-
-<br><br>
-
-<!-- Animated Badges -->
-<img src="https://img.shields.io/badge/_Commits_Today-12-00ffcc?style=for-the-badge&labelColor=000305" alt="Commits"/>
-<img src="https://img.shields.io/badge/_Lines_Written-1.2k-00ffcc?style=for-the-badge&labelColor=000305" alt="Lines"/>
-<img src="https://img.shields.io/badge/_Bugs_Fixed-3-00ffcc?style=for-the-badge&labelColor=000305" alt="Bugs"/>
-
-</div>
-
 <br>
 
 <!-- GitHub Stats - Real Metrics Only -->
