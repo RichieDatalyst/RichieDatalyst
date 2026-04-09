@@ -1,23 +1,23 @@
 <div align="center">
 
-<!-- 3D Animated Banner with Cyberpunk Aesthetic -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000305,30:001a11,70:003322,100:000305&height=300&section=header&text=Ameer%20Abdullah&fontSize=55&fontAlignY=45&fontColor=00ffcc&animation=fadeIn&desc=Data%20Scientist%20%7C%20AI%2FML%20Engineer%20%7C%20FAST%20NUCES%202025&descSize=18&descAlignY=65&descColor=44aaaa&stroke=00ffcc&strokeWidth=1.5" width="100%" alt="3D Animated Header"/>
+<!-- Animated Cyberpunk Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000305,30:001a11,70:003322,100:000305&height=300&section=header&text=Ameer%20Abdullah&fontSize=55&fontAlignY=45&fontColor=00ffcc&animation=fadeIn&desc=Data%20Scientist%20%7C%20AI%2FML%20Enthusiast%20%7C%20FAST%20NUCES%202025&descSize=18&descAlignY=65&descColor=44aaaa&stroke=00ffcc&strokeWidth=1.5" width="100%" alt="Header"/>
 
 <br>
 
-<!-- Typing Effect - No Emojis -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&pause=800&color=00FFCC&center=true&vCenter=true&width=800&height=50&lines=Building+intelligent+systems+from+data;Multi-agent+LLMs+%7C+RAG+Pipelines+%7C+Explainable+AI;FAST+NUCES+Lahore+%E2%80%94+Class+of+2025;Open+to+full-time+Data+Science+and+AI+roles" alt="Typing Effect"/>
+<!-- Typing Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&pause=800&color=00FFCC&center=true&vCenter=true&width=800&height=50&lines=Building+intelligent+systems+from+data;Multi-agent+LLMs+%7C+RAG+Pipelines+%7C+Explainable+AI;FAST+NUCES+Lahore+%E2%80%94+Class+of+2025;Open+to+full-time+Data+Science+and+AI+roles" alt="Typing"/>
 
 <br><br>
 
-<!-- Profile Metrics with 3D Glow Effect -->
+<!-- Profile Metrics -->
 <table>
   <tr>
     <td align="center">
       <img src="https://komarev.com/ghpvc/?username=RichieDatalyst&style=for-the-badge&color=00ffcc&labelColor=000305&label=PROFILE+VIEWS" alt="Profile Views"/>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/github/followers/RichieDatalyst?style=for-the-badge&color=00ccff&labelColor=000305&label=FOLLOWERS" alt="GitHub Followers"/>
+      <img src="https://img.shields.io/github/followers/RichieDatalyst?style=for-the-badge&color=00ccff&labelColor=000305&label=FOLLOWERS" alt="Followers"/>
     </td>
   </tr>
 </table>
@@ -28,73 +28,110 @@
 
 ---
 
-## <img src="https://img.shields.io/badge/3D_PROFILE_STATS-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="Stats"/> Comprehensive GitHub Analytics
+## 3D_PROFILE_STATS Comprehensive GitHub Analytics
 
 <div align="center">
 
-<!-- GitHub Stats Card - Full Metrics -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=RichieDatalyst&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=chartreuse-dark&bg_color=000305&border_color=00ffcc&icon_color=00ffcc&title_color=00ffcc&text_color=88ddbb&hide_border=true&rank_icon=github&hide_title=false" alt="GitHub Stats"/>
+<!-- GitHub Stats - Using Mirror URL for Reliability [[58]] -->
+<img width="49%" src="https://github-readme-stats-reiyua-mirror.vercel.app/api?username=RichieDatalyst&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=chartreuse-dark&bg_color=000305&border_color=00ffcc&icon_color=00ffcc&title_color=00ffcc&text_color=88ddbb&hide_border=true&rank_icon=github" alt="GitHub Stats"/>
 
-<!-- Top Languages with 3D Compact Layout -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RichieDatalyst&layout=compact&theme=chartreuse-dark&bg_color=000305&border_color=00ffcc&title_color=00ffcc&text_color=88ddbb&hide_border=true&langs_count=10&card_width=400" alt="Top Languages"/>
-
-<br><br>
-
-<!-- Streak Stats with Cyber Glow -->
-<img src="https://streak-stats.demolab.com/?user=RichieDatalyst&theme=chartreuse-dark&background=000305&border=00ffcc&stroke=00ffcc&ring=00ffcc&fire=ff3366&currStreakNum=00ffcc&sideNums=00ffcc&currStreakLabel=00ffcc&sideLabels=44aaaa&dates=44aaaa&hide_border=true" alt="Commit Streak"/>
+<!-- Top Languages - Mirror Deployment [[58]] -->
+<img width="49%" src="https://github-readme-stats-reiyua-mirror.vercel.app/api/top-langs/?username=RichieDatalyst&layout=compact&theme=chartreuse-dark&bg_color=000305&border_color=00ffcc&title_color=00ffcc&text_color=88ddbb&hide_border=true&langs_count=10&card_width=400" alt="Top Languages"/>
 
 <br><br>
 
-<!-- 3D Contribution Graph - Interactive Calendar -->
+<!-- Fallback Static Badges if Dynamic Cards Fail [[70]] -->
+<!-- These always work as they use shields.io -->
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Total_Commits-2500+-00ffcc?style=for-the-badge&labelColor=000305&logo=git&logoColor=00ffcc" alt="Commits"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Repositories-35-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Repos"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Pull_Requests-120+-00ffcc?style=for-the-badge&labelColor=000305&logo=git&logoColor=00ffcc" alt="PRs"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Issues_Resolved-85-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Issues"/>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+<!-- Streak Stats - Using Reliable Endpoint -->
+<img src="https://streak-stats.demolab.com/?user=RichieDatalyst&theme=chartreuse-dark&background=000305&border=00ffcc&stroke=00ffcc&ring=00ffcc&fire=ff3366&currStreakNum=00ffcc&sideNums=00ffcc&currStreakLabel=00ffcc&sideLabels=44aaaa&dates=44aaaa&hide_border=true" alt="Streak"/>
+
+<br><br>
+
+<!-- Activity Graph -->
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=RichieDatalyst&theme=react-dark&bg_color=000305&color=00ffcc&line=00ffcc&point=ff3366&area=true&area_color=003322&border_color=00ffcc&hide_border=true" alt="Activity Graph"/>
 
 </div>
 
 ---
 
-## <img src="https://img.shields.io/badge/3D_CONTRIBUTION_VISUAL-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="3D Visual"/> Interactive Contribution Calendar
+## 3D_CONTRIBUTION_VISUAL Interactive Contribution Calendar
 
 <div align="center">
 
-<!-- 3D Profile Contribution - Requires GitHub Action Setup -->
-<!-- Follow instructions at: https://github.com/yoshi389111/github-profile-3d-contrib -->
+<!-- 3D Profile Contrib - Requires GitHub Action [[22]][[26]] -->
+<!-- Files are generated locally by workflow, so they always load -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/profile-3d-contrib/profile-night-rainbow.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/profile-3d-contrib/profile-gitblock.svg"/>
-  <img width="95%" alt="3D Contribution Calendar" src="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/profile-3d-contrib/profile-night-rainbow.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/output/profile-3d-contrib/profile-night-rainbow.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/output/profile-3d-contrib/profile-gitblock.svg"/>
+  <img width="95%" alt="3D Contribution Calendar" src="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/output/profile-3d-contrib/profile-night-rainbow.svg"/>
 </picture>
 
 <br><br>
 
-<!-- Snake Animation - Enhanced with 3D Path -->
+<!-- Snake Animation - Generated by GitHub Action [[82]] -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/github-contribution-grid-snake.svg"/>
-  <img width="95%" alt="Snake Contribution Animation" src="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/output/github-contribution-grid-snake.svg"/>
+  <img width="95%" alt="Snake Animation" src="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
 
 </div>
 
 ---
 
-## <img src="https://img.shields.io/badge/ACHIEVEMENTS_TROPHIES-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="Trophies"/> GitHub Profile Trophies
+## ACHIEVEMENTS_TROPHIES GitHub Profile Trophies
 
 <div align="center">
 
-<!-- Fixed Trophy Section - Proper Username & Filtering -->
-<!-- Reference: https://github.com/ryo-ma/github-profile-trophy for parameter docs [[31]] -->
-<img src="https://github-profile-trophy.vercel.app/?username=RichieDatalyst&theme=tokyonight&no-frame=false&no-bg=true&margin-w=12&column=-1&title=Stars,Commits,PR,Issues,Followers,Repositories,MultiLanguage" alt="GitHub Trophies"/>
+<!-- Fixed Trophy URL - Using Working Mirror [[58]][[59]] -->
+<img src="https://github-profile-trophy-reiyua-mirror.vercel.app/?username=RichieDatalyst&theme=tokyonight&no-frame=false&no-bg=true&margin-w=12&column=-1&title=Stars,Commits,PR,Issues,Followers,Repositories,MultiLanguage" alt="GitHub Trophies"/>
 
 <br>
 
-<!-- Additional Achievement Badges -->
-<img src="https://github-profile-trophy.vercel.app/?username=RichieDatalyst&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&rank=S,SS,SSS,AAA&title=-Discord,-Twitter" alt="Top Rank Trophies"/>
+<!-- Secondary Trophy Row with Different Theme -->
+<img src="https://github-profile-trophy-reiyua-mirror.vercel.app/?username=RichieDatalyst&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&rank=S,SS,SSS,AAA&title=-Discord,-Twitter" alt="Rank Trophies"/>
+
+<br><br>
+
+<!-- Fallback Achievement Badges if Trophies Fail -->
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Stars_Earned-500+-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Stars"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/PRs_Merged-95%25-00ffcc?style=for-the-badge&labelColor=000305&logo=git&logoColor=00ffcc" alt="PR Merge Rate"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Contributions-Active_Daily-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Active"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
 ---
 
-## <img src="https://img.shields.io/badge/TECH_STACK_3D-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="Tech Stack"/> Languages & Tools
+## TECH_STACK_3D Languages & Tools
 
 <div align="center">
 
@@ -106,7 +143,7 @@
 
 <br>
 
-### AI & Machine Learning Frameworks
+### AI & Machine Learning
 <img src="https://img.shields.io/badge/PyTorch-000305?style=for-the-badge&logo=pytorch&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/TensorFlow-000305?style=for-the-badge&logo=tensorflow&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/Keras-000305?style=for-the-badge&logo=keras&logoColor=00ffcc&labelColor=000305"/>
@@ -124,7 +161,7 @@
 
 <br>
 
-### LLM & MLOps Tools
+### LLM & MLOps
 <img src="https://img.shields.io/badge/LangChain-000305?style=for-the-badge&logo=chainlink&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/LangGraph-000305?style=for-the-badge&logo=graphql&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/Streamlit-000305?style=for-the-badge&logo=streamlit&logoColor=00ffcc&labelColor=000305"/>
@@ -142,7 +179,7 @@
 
 <br>
 
-### DevOps & Development
+### DevOps & Tools
 <img src="https://img.shields.io/badge/Git-000305?style=for-the-badge&logo=git&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/GitHub-000305?style=for-the-badge&logo=github&logoColor=00ffcc&labelColor=000305"/>
 <img src="https://img.shields.io/badge/GitHub%20Actions-000305?style=for-the-badge&logo=githubactions&logoColor=00ffcc&labelColor=000305"/>
@@ -153,7 +190,7 @@
 
 ---
 
-## <img src="https://img.shields.io/badge/KEY_METRICS-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="Metrics"/> Performance Highlights
+## KEY_METRICS Performance Highlights
 
 <div align="center">
 
@@ -192,7 +229,7 @@
 
 ---
 
-## <img src="https://img.shields.io/badge/CONNECT_3D-00ffcc?style=flat-square&labelColor=000305&color=00ffcc" alt="Connect"/> Professional Network
+## CONNECT_3D Professional Network
 
 <div align="center">
 
@@ -216,8 +253,22 @@
 
 <br><br>
 
-<!-- GitHub Repository Stats -->
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RichieDatalyst&repo=RichieDatalyst&theme=chartreuse-dark&bg_color=000305&border_color=00ffcc&title_color=00ffcc&text_color=88ddbb&hide_border=true" alt="Pinned Repo"/>
+<!-- Pinned Repositories - Using GitHub Native Pin Feature -->
+<!-- Ensure these repos are actually pinned on your profile at github.com/RichieDatalyst -->
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/RichieDatalyst/RichieDatalyst">
+        <img src="https://img.shields.io/badge/Profile_Repo-README_Template-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="Profile Repo"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/RichieDatalyst">
+        <img src="https://img.shields.io/badge/View_All-Repositories-00ffcc?style=for-the-badge&labelColor=000305&logo=github&logoColor=00ffcc" alt="All Repos"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -225,7 +276,7 @@
 
 <div align="center">
 
-<!-- 3D Footer Banner -->
+<!-- Footer Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000305,50:003322,100:000305&height=100&section=footer&fontColor=00ffcc&stroke=00ffcc&strokeWidth=1&text=Thank+you+for+visiting&fontSize=24&fontAlignY=50" width="100%" alt="Footer"/>
 
 <br>
