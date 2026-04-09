@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ameer Abdullah</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --void:#000305;
+  --plasma:#00ffcc;
+  --plasma2:#00ccff;
+  --hot:#ff3366;
+  --warm:#ffaa00;
+  --mono:'Share Tech Mono',monospace;
+  --display:'Orbitron',monospace;
+}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--void)}
+
+/* ===== CANVAS ===== */
+#c{position:fixed;inset:0;display:block;z-index:0}
+
+/* ===== HUD OVERLAY ===== */
+#hud{
+  position:fixed;inset:0;z-index:10;
+  pointer-events:none;
+  display:flex;flex-direction:column;justify-content:space-between;
+}
+
+/* top bar */
+.hud-top{
+  display:flex;justify-content:space-between;align-items:flex-start;
+  padding:28px 36px 0;
+}
+.hud-id{
+  font-family:var(--mono);font-size:11px;
+  color:rgba(0,255,204,0.5);
+  letter-spacing:0.18em;
+  line-height:2;
+}
+.hud-id strong{
+  display:block;font-family:var(--display);
+  font-size:13px;font-weight:700;
+  color:var(--plasma);letter-spacing:0.22em;
+}
+.hud-coords{
+  font-family:var(--mono);font-size:10px;
+  color:rgba(0,255,204,0.35);
+  letter-spacing:0.12em;text-align:right;
+  line-height:1.9;
+}
+
+/* scan lines */
+#hud::before{
+  content:'';
+  position:absolute;inset:0;
+  background:repeating-linear-gradient(
+    0deg,
+    transparent,transparent 2px,
+    rgba(0,255,204,0.012) 2px,rgba(0,255,204,0.012) 4px
+  );
+  pointer-events:none;
+}
+
+/* corner brackets */
+.corner{position:absolute;width:28px;height:28px;border-color:rgba(0,255,204,0.4);border-style:solid}
+.corner.tl{top:16px;left:16px;border-width:1px 0 0 1px}
+.corner.tr{top:16px;right:16px;border-width:1px 1px 0 0}
+.corner.bl{bottom:16px;left:16px;border-width:0 0 1px 1px}
+.corner.br{bottom:16px;right:16px;border-width:0 1px 1px 0}
+
+/* center name */
+.hud-center{
+  display:flex;flex-direction:column;align-items:center;
+  pointer-events:auto;
+  padding:0 20px;
+}
+.name-block{text-align:center;margin-bottom:20px}
+.name-first{
+  display:block;
+  font-family:var(--display);
+  font-size:clamp(3rem,8vw,7.5rem);
+  font-weight:400;
+  color:rgba(255,255,255,0.08);
+  letter-spacing:0.28em;
+  line-height:1;
+  text-transform:uppercase;
+  -webkit-text-stroke:1px rgba(0,255,204,0.25);
+  animation:pulseName 6s ease-in-out infinite;
+}
+.name-last{
+  display:block;
+  font-family:var(--display);
+  font-size:clamp(3rem,8vw,7.5rem);
+  font-weight:900;
+  color:transparent;
+  letter-spacing:0.28em;
+  line-height:1;
+  text-transform:uppercase;
+  -webkit-text-stroke:1px var(--plasma);
+  text-shadow:0 0 60px rgba(0,255,204,0.15);
+  animation:pulseName 6s ease-in-out infinite 0.3s;
+}
+@keyframes pulseName{
+  0%,100%{opacity:1}
+  50%{opacity:0.75}
+}
+.name-role{
+  font-family:var(--mono);font-size:11px;
+  color:rgba(0,255,204,0.55);
+  letter-spacing:0.28em;text-transform:uppercase;
+  margin-top:18px;
+}
+
+/* pill links */
+.hud-links{
+  display:flex;gap:10px;flex-wrap:wrap;justify-content:center;
+  margin-top:28px;
+}
+.pill{
+  font-family:var(--mono);font-size:10px;
+  letter-spacing:0.14em;text-transform:uppercase;
+  padding:8px 18px;
+  border:1px solid rgba(0,255,204,0.3);
+  color:rgba(0,255,204,0.7);
+  text-decoration:none;
+  background:rgba(0,255,204,0.03);
+  transition:all 0.25s;
+  pointer-events:auto;
+  cursor:pointer;
+}
+.pill:hover{
+  border-color:var(--plasma);color:var(--plasma);
+  background:rgba(0,255,204,0.08);
+  box-shadow:0 0 20px rgba(0,255,204,0.1);
+}
+.pill-hot{
+  border-color:rgba(255,51,102,0.4);
+  color:rgba(255,51,102,0.8);
+  background:rgba(255,51,102,0.03);
+}
+.pill-hot:hover{
+  border-color:var(--hot);color:var(--hot);
+  background:rgba(255,51,102,0.08);
+  box-shadow:0 0 20px rgba(255,51,102,0.12);
+}
+
+/* bottom strip */
+.hud-bottom{
+  display:flex;justify-content:space-between;align-items:flex-end;
+  padding:0 36px 28px;
+}
+.hud-stat{font-family:var(--mono);font-size:10px;color:rgba(0,255,204,0.35);letter-spacing:0.12em;line-height:1.8}
+.hud-stat strong{color:var(--plasma);font-size:14px;font-family:var(--display);display:block;font-weight:700}
+.hud-hint{
+  font-family:var(--mono);font-size:9px;
+  color:rgba(0,255,204,0.25);
+  letter-spacing:0.14em;text-align:right;
+  animation:blinkHint 3s ease-in-out infinite;
+}
+@keyframes blinkHint{0%,100%{opacity:0.4}50%{opacity:1}}
+
+/* status bar */
+.status-bar{
+  position:fixed;bottom:0;left:0;right:0;
+  height:2px;
+  background:linear-gradient(90deg,
+    transparent 0%,
+    var(--plasma) 20%,
+    var(--plasma2) 50%,
+    var(--plasma) 80%,
+    transparent 100%
+  );
+  opacity:0.4;
+  z-index:11;
+  animation:statusScan 4s ease-in-out infinite;
+}
+@keyframes statusScan{
+  0%,100%{transform:scaleX(0.3);opacity:0.2}
+  50%{transform:scaleX(1);opacity:0.5}
+}
+
+/* loading screen */
+#loader{
+  position:fixed;inset:0;z-index:100;
+  background:var(--void);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:20px;
+  transition:opacity 1.2s ease;
+}
+#loader.gone{opacity:0;pointer-events:none}
+.loader-text{
+  font-family:var(--mono);font-size:11px;
+  color:var(--plasma);letter-spacing:0.22em;
+  animation:blinkHint 0.8s linear infinite;
+}
+.loader-bar{width:200px;height:1px;background:rgba(0,255,204,0.15);position:relative;overflow:hidden}
+.loader-fill{
+  position:absolute;inset:0;
+  background:var(--plasma);
+  transform:scaleX(0);transform-origin:left;
+  transition:transform 0.05s;
+}
+
+/* mobile touch hint */
+@media(max-width:600px){
+  .name-first,.name-last{font-size:3rem;letter-spacing:0.15em}
+  .hud-top,.hud-bottom{padding-left:20px;padding-right:20px}
+}
+</style>
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-text" id="loaderTxt">INITIALIZING NEURAL SPACE</div>
+  <div class="loader-bar"><div class="loader-fill" id="loaderFill"></div></div>
+</div>
+
+<canvas id="c"></canvas>
+
+<div id="hud">
+  <div class="corner tl"></div>
+  <div class="corner tr"></div>
+  <div class="corner bl"></div>
+  <div class="corner br"></div>
+
+  <div class="hud-top">
+    <div class="hud-id">
+      <strong>AMEER ABDULLAH</strong>
+      DATA SCIENTIST &amp; AI ENGINEER<br>
+      FAST NUCES · LAHORE · PK
+    </div>
+    <div class="hud-coords" id="coords">
+      LAT: 31.5204 N<br>
+      LNG: 74.3587 E<br>
+      <span id="ts">--:--:--</span>
+    </div>
+  </div>
+
+  <div class="hud-center">
+    <div class="name-block">
+      <span class="name-first">Ameer</span>
+      <span class="name-last">Abdullah</span>
+      <div class="name-role">Junior Data Scientist &nbsp;/&nbsp; AI Engineer &nbsp;/&nbsp; FAST NUCES 2025</div>
+    </div>
+    <div class="hud-links">
+      <a href="https://richiedatalyst.github.io/" target="_blank" class="pill pill-hot">Portfolio ↗</a>
+      <a href="https://github.com/RichieDatalyst" target="_blank" class="pill">GitHub</a>
+      <a href="https://linkedin.com/in/ameer-abdullah-bhatti-502955294" target="_blank" class="pill">LinkedIn</a>
+      <a href="mailto:abdullahameer255@gmail.com" class="pill">Contact</a>
+    </div>
+  </div>
+
+  <div class="hud-bottom">
+    <div style="display:flex;gap:40px">
+      <div class="hud-stat"><strong>97%</strong>MODEL ACCURACY</div>
+      <div class="hud-stat"><strong>4.5M</strong>TRAINING STEPS</div>
+      <div class="hud-stat"><strong>4+</strong>LLM PROVIDERS</div>
+      <div class="hud-stat"><strong>50+</strong>MENTORED</div>
+    </div>
+    <div class="hud-hint">DRAG TO EXPLORE &nbsp;· &nbsp;SCROLL TO ZOOM</div>
+  </div>
+</div>
+
+<div class="status-bar"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+// =====================================================
+// LOADER
+// =====================================================
+const loaderFill = document.getElementById('loaderFill');
+const loaderTxt  = document.getElementById('loaderTxt');
+const loader     = document.getElementById('loader');
+const messages   = ['INITIALIZING NEURAL SPACE','LOADING 3D MANIFOLD','MAPPING FEATURE SPACE','CALIBRATING AGENTS'];
+let lp = 0;
+const lInt = setInterval(()=>{
+  lp += 0.025;
+  loaderFill.style.transform = `scaleX(${Math.min(lp,1)})`;
+  loaderTxt.textContent = messages[Math.floor(lp*messages.length)%messages.length];
+  if(lp >= 1){ clearInterval(lInt); setTimeout(()=>loader.classList.add('gone'),300); }
+},40);
+
+// =====================================================
+// THREE.JS SETUP
+// =====================================================
+const W = ()=>window.innerWidth, H = ()=>window.innerHeight;
+const renderer = new THREE.WebGLRenderer({canvas:document.getElementById('c'),antialias:true,alpha:false});
+renderer.setPixelRatio(Math.min(window.devicePixelRatio,2));
+renderer.setSize(W(),H());
+renderer.setClearColor(0x000305);
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+
+const scene  = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(60,W()/H(),0.1,2000);
+camera.position.set(0,0,90);
+
+// =====================================================
+// FOG
+// =====================================================
+scene.fog = new THREE.FogExp2(0x000305, 0.006);
+
+// =====================================================
+// STAR FIELD — deep background
+// =====================================================
+const starGeo = new THREE.BufferGeometry();
+const starCount = 4000;
+const starPos = new Float32Array(starCount*3);
+for(let i=0;i<starCount*3;i++) starPos[i] = (Math.random()-0.5)*1400;
+starGeo.setAttribute('position',new THREE.BufferAttribute(starPos,3));
+const starMat = new THREE.PointsMaterial({color:0x446688,size:0.4,sizeAttenuation:true});
+scene.add(new THREE.Points(starGeo,starMat));
+
+// =====================================================
+// NEURAL NETWORK NODE GRAPH
+// =====================================================
+const NODE_COUNT = 60;
+const nodes = [];
+const nodeGeo = new THREE.SphereGeometry(0.55,8,8);
+
+const skillLabels = ['ML','NLP','RAG','LLM','SHAP','FAISS','PyTorch','FastAPI','Python','SQL',
+  'MLflow','Gemini','LangGraph','Groq','LSTM','XGBoost','Streamlit','Power BI','scikit','LIME'];
+
+function randRange(a,b){return a+Math.random()*(b-a)}
+
+for(let i=0;i<NODE_COUNT;i++){
+  const isCore = i < 8;
+  const col = isCore ? new THREE.Color(0x00ffcc) : (Math.random()>0.7 ? new THREE.Color(0x00ccff) : new THREE.Color(0x004455));
+  const mat = new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:isCore?0.9:0.4});
+  const mesh = new THREE.Mesh(nodeGeo,mat);
+  const r = isCore ? randRange(5,18) : randRange(18,55);
+  const theta = Math.random()*Math.PI*2;
+  const phi = Math.random()*Math.PI;
+  mesh.position.set(
+    r*Math.sin(phi)*Math.cos(theta),
+    r*Math.sin(phi)*Math.sin(theta),
+    r*Math.cos(phi)
+  );
+  mesh.scale.setScalar(isCore ? randRange(1.2,2.2) : randRange(0.5,1.4));
+  scene.add(mesh);
+  nodes.push({mesh,r,theta,phi,speed:randRange(0.0003,0.001)*(Math.random()>0.5?1:-1),isCore,col,orig:col.clone()});
+}
+
+// =====================================================
+// EDGES between nearby nodes
+// =====================================================
+const edgeMat = new THREE.LineBasicMaterial({color:0x004433,transparent:true,opacity:0.25});
+for(let i=0;i<NODE_COUNT;i++){
+  for(let j=i+1;j<NODE_COUNT;j++){
+    const d = nodes[i].mesh.position.distanceTo(nodes[j].mesh.position);
+    if(d < 22){
+      const edgeGeo = new THREE.BufferGeometry().setFromPoints([
+        nodes[i].mesh.position.clone(),
+        nodes[j].mesh.position.clone()
+      ]);
+      scene.add(new THREE.Line(edgeGeo,edgeMat));
+    }
+  }
+}
+
+// =====================================================
+// DATA STREAM PARTICLES (vertical rain)
+// =====================================================
+const streamCount = 300;
+const streamGeo = new THREE.BufferGeometry();
+const streamPos = new Float32Array(streamCount*3);
+const streamVel = new Float32Array(streamCount);
+for(let i=0;i<streamCount;i++){
+  streamPos[i*3]   = (Math.random()-0.5)*140;
+  streamPos[i*3+1] = (Math.random()-0.5)*120;
+  streamPos[i*3+2] = (Math.random()-0.5)*80;
+  streamVel[i] = 0.08+Math.random()*0.2;
+}
+streamGeo.setAttribute('position',new THREE.BufferAttribute(streamPos,3));
+const streamMat = new THREE.PointsMaterial({color:0x00ffcc,size:0.25,transparent:true,opacity:0.35,sizeAttenuation:true});
+const streamPts = new THREE.Points(streamGeo,streamMat);
+scene.add(streamPts);
+
+// =====================================================
+// CENTRAL WIREFRAME SPHERE
+// =====================================================
+const sphereGeo = new THREE.IcosahedronGeometry(12,2);
+const wireGeo   = new THREE.WireframeGeometry(sphereGeo);
+const wireMat   = new THREE.LineBasicMaterial({color:0x00ffcc,transparent:true,opacity:0.08});
+const wireSphere = new THREE.LineSegments(wireGeo,wireMat);
+scene.add(wireSphere);
+
+// inner glow sphere
+const glowGeo = new THREE.SphereGeometry(10,32,32);
+const glowMat = new THREE.MeshBasicMaterial({color:0x00ffcc,transparent:true,opacity:0.03,side:THREE.BackSide});
+scene.add(new THREE.Mesh(glowGeo,glowMat));
+
+// =====================================================
+// ORBITAL RINGS
+// =====================================================
+function makeRing(r,tilt,col,opacity){
+  const geo = new THREE.TorusGeometry(r,0.06,8,120);
+  const mat = new THREE.MeshBasicMaterial({color:col,transparent:true,opacity});
+  const m = new THREE.Mesh(geo,mat);
+  m.rotation.x = tilt;
+  scene.add(m);
+  return m;
+}
+const ring1 = makeRing(22,Math.PI/3,0x00ffcc,0.18);
+const ring2 = makeRing(32,Math.PI/6,0x00ccff,0.12);
+const ring3 = makeRing(42,-Math.PI/4,0x00ffcc,0.07);
+
+// =====================================================
+// MOUSE / TOUCH INTERACTION
+// =====================================================
+const mouse = {x:0,y:0,down:false,lastX:0,lastY:0};
+const camRot = {x:0,y:0,targetX:0,targetY:0};
+
+document.addEventListener('mousemove',e=>{
+  mouse.x = (e.clientX/W()-0.5)*2;
+  mouse.y = -(e.clientY/H()-0.5)*2;
+  if(mouse.down){
+    camRot.targetY += (e.clientX-mouse.lastX)*0.005;
+    camRot.targetX += (e.clientY-mouse.lastY)*0.005;
+    mouse.lastX=e.clientX; mouse.lastY=e.clientY;
+  }
+});
+document.addEventListener('mousedown',e=>{mouse.down=true;mouse.lastX=e.clientX;mouse.lastY=e.clientY});
+document.addEventListener('mouseup',()=>mouse.down=false);
+document.addEventListener('wheel',e=>{
+  camera.position.z = Math.max(30,Math.min(150,camera.position.z+e.deltaY*0.05));
+},{passive:true});
+
+// touch
+let lastTouch = null;
+document.addEventListener('touchstart',e=>{lastTouch={x:e.touches[0].clientX,y:e.touches[0].clientY}},{passive:true});
+document.addEventListener('touchmove',e=>{
+  if(!lastTouch)return;
+  camRot.targetY += (e.touches[0].clientX-lastTouch.x)*0.005;
+  camRot.targetX += (e.touches[0].clientY-lastTouch.y)*0.005;
+  lastTouch={x:e.touches[0].clientX,y:e.touches[0].clientY};
+},{passive:true});
+
+// =====================================================
+// HUD CLOCK
+// =====================================================
+const ts = document.getElementById('ts');
+const coords = document.getElementById('coords');
+setInterval(()=>{
+  const n=new Date();
+  ts.textContent=n.toUTCString().split(' ')[4]+' UTC';
+},1000);
+
+// =====================================================
+// RENDER LOOP
+// =====================================================
+const clock = new THREE.Clock();
+let autoRotY = 0;
+
+function animate(){
+  requestAnimationFrame(animate);
+  const t = clock.getElapsedTime();
+  const dt = clock.getDelta ? 0.016 : 0.016;
+
+  // auto-rotate camera slowly
+  autoRotY += 0.0006;
+
+  // smooth camera rotation (drag + auto)
+  camRot.x += (camRot.targetX - camRot.x)*0.06;
+  camRot.y += (camRot.targetY - camRot.y)*0.06;
+  camRot.targetY += 0.0006;
+
+  camera.position.x = Math.sin(camRot.y)*camera.position.z*0.8;
+  camera.position.y = Math.sin(camRot.x)*camera.position.z*0.5;
+  camera.lookAt(0,0,0);
+
+  // orbit nodes
+  nodes.forEach((n,i)=>{
+    n.theta += n.speed;
+    n.mesh.position.set(
+      n.r*Math.sin(n.phi)*Math.cos(n.theta),
+      n.r*Math.sin(n.phi)*Math.sin(n.theta)*0.6,
+      n.r*Math.cos(n.phi)
+    );
+    // pulse core nodes
+    if(n.isCore){
+      const s = 1 + 0.15*Math.sin(t*1.5+i);
+      n.mesh.scale.setScalar(s*(n.isCore?1.8:1));
+    }
+  });
+
+  // stream particles fall
+  const sp = streamGeo.attributes.position.array;
+  for(let i=0;i<streamCount;i++){
+    sp[i*3+1] -= streamVel[i];
+    if(sp[i*3+1] < -60){ sp[i*3+1] = 60; }
+  }
+  streamGeo.attributes.position.needsUpdate = true;
+
+  // rotate rings
+  ring1.rotation.z = t*0.12;
+  ring2.rotation.y = t*0.09;
+  ring3.rotation.x = t*0.06;
+  wireSphere.rotation.y = t*0.04;
+  wireSphere.rotation.x = t*0.025;
+
+  // pulse wire sphere opacity
+  wireMat.opacity = 0.05+0.05*Math.sin(t*0.8);
+
+  renderer.render(scene,camera);
+}
+animate();
+
+// =====================================================
+// RESIZE
+// =====================================================
+window.addEventListener('resize',()=>{
+  renderer.setSize(W(),H());
+  camera.aspect = W()/H();
+  camera.updateProjectionMatrix();
+});
+</script>
+</body>
+</html>
