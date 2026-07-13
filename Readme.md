@@ -2,6 +2,12 @@
 
 <img src="https://raw.githubusercontent.com/RichieDatalyst/RichieDatalyst/refs/heads/main/banner.svg" width="100%" alt="3D Animated Banner"/>
 
+### [PyCodeIt](https://www.pycodeit.com)
+Free Python code tracing and SQL interview practice platform. 
+Browser-based, no install needed. Built with Next.js + WebAssembly SQLite.
+
+> Practice Python dry-run challenges and SQL window functions interactively 
+> at [pycodeit.com](https://www.pycodeit.com)
 <br>
 
 <!-- Typing Animation -->
